@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <title>IRC Puzzles</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="{{ AUTHOR }}">
+    <meta name="author" content="">
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css" />
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -30,10 +30,10 @@
         font-size: 6pt;
      }
     </style>
-    <link href="{{ SITEURL }}/theme/css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link href="{{ SITEURL }}/theme/css/font-awesome.css" rel="stylesheet">
+    <link href="./theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="./theme/css/font-awesome.css" rel="stylesheet">
 
-    <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
+    <link href="./theme/css/pygments.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -41,15 +41,13 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
-    <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="./theme/images/favicon.ico">
+    <link rel="apple-touch-icon" href="./theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./theme/images/apple-touch-icon-114x114.png">
 
-    <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
-    {% if FEED_RSS %}
-    <link href="{{ SITEURL }}/{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
-    {% endif %}
+    <link href="./" type="application/atom+xml" rel="alternate" title="IRC Puzzles ATOM Feed" />
+    <link href="./feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="IRC Puzzles RSS Feed" />
 
   </head>
 
@@ -63,28 +61,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="{{ SITEURL }}/index.html">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
+          <a class="brand" href="./index.html">IRC Puzzles </a>
           <div class="nav-collapse">
             <ul class="nav">
-              {% for title, link in MENUITEMS %}
-                  <li><a href="{{ link }}">{{ title }}</a></li>
-              {% endfor %}
-              {% if DISPLAY_PAGES_ON_MENU %}
-              {% for page in PAGES %}
-                <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-              {% endfor %}
+                <li><a href="./pages/about-us.html">About Us</a></li>
+                <li><a href="./">Home</a></li>
                           <li class="divider-vertical"></li>
-              {% endif %}
-              {% for cat, null in categories %}
-                  <li {% if cat == category %}class="active"{% endif %}>
-                    <a href="{{ SITEURL }}/{{ cat.url }}">
-						<i class="icon-folder-open icon-large"></i>{{ cat }}
-					</a>
-                  </li>
-              {% endfor %}
 
                           <ul class="nav pull-right">
-                                <li><a href="{{ SITEURL }}/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+                                <li><a href="./archives.html"><i class="icon-th-list"></i>Archives</a></li>
                           </ul>
 
             </ul>
@@ -97,13 +82,20 @@
     <div class="container-fluid">
       <div class="row">
         <div class="span9" id="content">
-            {% block content %}
-            {% endblock %}
+<ul>
+<li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
+</ul>
         </div><!--/span-->
 
                 <div class="span3 well sidebar-nav" id="sidebar">
-            {% include 'sidebar.html' %}
-        </div><!--/.well -->
+<ul class="nav nav-list">
+
+<li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>Categories</h4></li>
+
+<li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
+
+
+</ul>        </div><!--/.well -->
 
       </div><!--/row-->
 
@@ -122,13 +114,10 @@
     </div><!--/.fluid-container-->
 
 
-    {% include 'analytics.html' %}
-    {% include 'piwik.html' %}
-    {% include 'disqus_script.html' %}
 
     <!-- Le javascript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ SITEURL }}/theme/js/jquery-1.7.2.min.js"></script>
-    <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+    <script src="./theme/js/jquery-1.7.2.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
   </body>
 </html>
