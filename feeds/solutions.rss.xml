@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>#ircpuzzles - solutions</title><link>https://ircpuzzles.org/</link><description></description><lastBuildDate>Sun, 18 Mar 2018 19:20:00 +0000</lastBuildDate><item><title>2017 April Fool\'s Day Summary &amp; Solutions</title><link>https://ircpuzzles.org/2018/03/2017-afd-summary/</link><description>&lt;h2&gt;Level 0&lt;/h2&gt;
+<rss version="2.0"><channel><title>#ircpuzzles - solutions</title><link>https://ircpuzzles.org/</link><description></description><lastBuildDate>Sun, 18 Mar 2018 19:20:00 +0000</lastBuildDate><item><title>2017 April Fool's Day Summary &amp; Solutions</title><link>https://ircpuzzles.org/2018/03/2017-afd-summary/</link><description>&lt;h2&gt;Level 0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY=&lt;/li&gt;
 &lt;li&gt;The answer: &lt;code&gt;######AFD2017Start-CryptoNews&lt;/code&gt; decoding the clue with base64, and then rot13&lt;/li&gt;
