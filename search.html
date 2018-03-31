@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!--
+    (The MIT License)
+
+    Copyright (c) 2016 Kura
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the 'Software'), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<html lang="en">
+<head id="head">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="alternate" href="." hreflang="en" />
+<link rel="dns-prefetch" href=".">
+<link rel="dns-prefetch" href="//code.getmdl.io">
+    <link rel="dns-prefetch" href="//disqus.com">
+    <link rel="dns-prefetch" href="//a.disquscdn.com">
+    <link rel="dns-prefetch" href="//ircpuzzles.disqus.com">
+    <link rel="dns-prefetch" href="//glitter-services.disqus.com">
+    <link href="./feeds/all.rss.xml" type="application/rss+xml"
+          rel="alternate" title="#ircpuzzles">
+    <meta property="og:site_name" content="#ircpuzzles">
+    <meta property="og:type" content="article">
+        <meta property="og:title"
+              content="#ircpuzzles">
+        <meta property="og:url" content="./search.html">
+        <meta property="twitter:site" content="@ircpuzzles">
+        <meta property="twitter:title"
+              content="#ircpuzzles">
+        <meta property="twitter:url"
+              content="./search.html">
+            <meta property="twitter:card" content="summary">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <title>Search</title>
+</head>
+<body>
+    <div class="eevee-layout mdl-layout mdl-js-layout mdl-color--grey-50">
+        <header class="eevee-header mdl-color--grey-50 mdl-color-text--grey-800"
+                itemscope itemtype="http://schema.org/WPHeader">
+            <div class="mdl-layout__header-row" id="top">
+                <div aria-expanded="false" role="button" tabindex="0"
+                     class="mdl-layout__drawer-button mdl-color-text--accent eevee-mobile-button mdl-layout--small-screen-only">
+                    <i class="material-icons">&#xE5D2;</i>
+                </div>
+                <span class="eevee-logo mdl-color-text--accent mdl-layout-title">
+                    <h2>
+                        <a href="." rel="bookmark"
+                           title="#ircpuzzles">
+                            #ircpuzzles
+                        </a>
+                    </h2>
+                </span>
+                <div class="mdl-layout-spacer" role="presentation"></div>
+                <nav class="eevee-nav mdl-navigation mdl-layout--large-screen-only"
+                     itemscope itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./archives.html" itemprop="url"
+           rel="bookmark">
+            Archives
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./" itemprop="url"
+           rel="bookmark">
+            Home
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./rules.html" itemprop="url"
+           rel="bookmark">
+            Rules
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./staff.html" itemprop="url"
+           rel="bookmark">
+            Staff
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./tips.html" itemprop="url"
+           rel="bookmark">
+            Tips <span class="amp">&amp;</span>&nbsp;Guidelines
+        </a>
+                <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./category/updates/" itemprop="url"
+                   rel="bookmark">
+                    updates
+                </a>
+                <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./category/solutions/" itemprop="url"
+                   rel="bookmark">
+                    solutions
+                </a>
+                <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./category/rankings/" itemprop="url"
+                   rel="bookmark">
+                    rankings
+                </a>
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="./feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+    <div class="eevee-search-menu mdl-textfield">
+        <label class="mdl-color-text--accent mdl-button mdl-button--icon"
+               for="tipue_search_input">
+            <i class="material-icons">&#xE8B6;</i>
+        </label>
+        <div>
+            <form action="./search.html">
+            <input class="eevee-search-box mdl-textfield__input"
+                   type="text" name="q" id="tipue_search_input"
+                   autocomplete="off">
+            </form>
+        </div>
+    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="eevee-mobile-header mdl-layout__drawer mdl-color--white"
+             aria-hidden="true">
+            <span class="mdl-layout-title">
+                <h2 class="eevee-mobile-logo mdl-color-text--accent">
+                    #ircpuzzles
+                </h2>
+            </span>
+            <div class="mdl-navigation mdl-color--white">
+                <nav class="eevee-nav mdl-navigation" itemscope
+                     itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+                    <a class="mdl-color-text--accent mdl-navigation__link"
+                       href="." itemprop="url" rel="bookmark">
+                        Home
+                    </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./archives.html" itemprop="url"
+           rel="bookmark">
+            Archives
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./" itemprop="url"
+           rel="bookmark">
+            Home
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./rules.html" itemprop="url"
+           rel="bookmark">
+            Rules
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./staff.html" itemprop="url"
+           rel="bookmark">
+            Staff
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./tips.html" itemprop="url"
+           rel="bookmark">
+            Tips <span class="amp">&amp;</span>&nbsp;Guidelines
+        </a>
+                <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./category/updates/" itemprop="url"
+                   rel="bookmark">
+                    updates
+                </a>
+                <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./category/solutions/" itemprop="url"
+                   rel="bookmark">
+                    solutions
+                </a>
+                <a class="mdl-color-text--accent mdl-navigation__link"
+           href="./category/rankings/" itemprop="url"
+                   rel="bookmark">
+                    rankings
+                </a>
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="./feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+    <div class="eevee-search-menu mdl-textfield">
+        <label class="mdl-color-text--accent mdl-button mdl-button--icon"
+               for="tipue_search_input">
+            <i class="material-icons">&#xE8B6;</i>
+        </label>
+        <div>
+            <form action="./search.html">
+            <input class="eevee-search-box mdl-textfield__input"
+                   type="text" name="q" id="tipue_search_input"
+                   autocomplete="off">
+            </form>
+        </div>
+    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="eevee-ribbon mdl-color--primary-dark" role="presentation">
+        </div>
+        <main class="eevee-main mdl-layout__content">
+            <div class="eevee-container mdl-grid">
+                <div role="presentation"
+                     class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+                </div>
+                <div class="eevee-content mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--8-col"
+                     aria-label="Main content">
+    <script src="./theme/webassets-external/73dc6607bd7d5ceecadda7090e3c1b82_jquery.js">
+    </script>
+    <script src="./theme/webassets-external/15ec020e9d16d69019dcd1e1a39cc3e3_tipuesearch.js">
+    </script>
+    <script src="./theme/webassets-external/31cf00615b54d9aa16d64b74987deea1_tipuesearch_set.js">
+    </script>
+        <script>
+            $(document).ready(function(){$("#tipue_search_input").tipuesearch({mode:"json",show:10,newWindow:!1,contentLocation:"./tipuesearch_content.json"})});
+        </script>
+        <article itemscope itemtype="http://schema.org/WebPage">
+            <div class="eevee-page">
+                <h2 itemprop="name">Search results</h2>
+                <div>
+                    <div id="tipue_search_content"></div>
+                </div>
+            </div>
+        </article>
+                </div>
+            </div>
+        </main>
+        <footer class="mdl-mega-footer" itemscope
+                itemtype="http://schema.org/SiteNavigationElement">
+            <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--drop-down-section">
+                    <ul class="mdl-mega-footer--link-list">
+                        <li>
+                            <a href="#top" itemprop="url"
+                               title="Back to the top of the page">
+                                Back to the top of the page
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<div class="mdl-mega-footer--middle-section" itemscope
+     itemtype="http://schema.org/SiteNavigationElement"
+     aria-label="Footer navigation">
+    <div class="mdl-mega-footer--drop-down-section">
+        <h1 class="mdl-mega-footer--heading">Categories</h1>
+        <ul class="mdl-mega-footer--link-list">
+                <li>
+                    <a href="./category/updates/" itemprop="url"
+                       rel="bookmark">
+                        updates
+                    </a>
+                </li>
+                <li>
+                    <a href="./category/solutions/" itemprop="url"
+                       rel="bookmark">
+                        solutions
+                    </a>
+                </li>
+                <li>
+                    <a href="./category/rankings/" itemprop="url"
+                       rel="bookmark">
+                        rankings
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="mdl-mega-footer--drop-down-section">
+        <h1 class="mdl-mega-footer--heading">Social</h1>
+        <ul class="mdl-mega-footer--link-list">
+                <li>
+                    <a href="https://twitter.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-twitter aria-hidden="true"></i> Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-github aria-hidden="true"></i> Github
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="mdl-mega-footer--drop-down-section">
+        <h1 class="mdl-mega-footer--heading">Links</h1>
+        <ul class="mdl-mega-footer--link-list">
+                <li>
+                    <a href="https://freenode.net/" itemprop="url" rel="bookmark">
+                        freenode
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div>            <div class="mdl-mega-footer--bottom-section">
+                <div class="mdl-logo">
+                    <a href="." rel="bookmark" itemprop="url"
+                       title="#ircpuzzles">
+                        #ircpuzzles
+                    </a>
+                </div>
+                    <ul class="eevee-footer mdl-mega-footer--link-list">
+                            <li>Powered by love &amp; rainbow sparkles.</li>
+                            <li><a href="https://kura.io/eevee/" title="Eevee">Eevee</a> theme by <a href="https://kura.io/" title="kura.io">kura.io</a></li>
+                    </ul>
+            </div>
+        </footer>
+    </div>
+    <link rel="stylesheet"
+          href="//code.getmdl.io/1.1.3/material.blue_grey-pink.min.css">
+    <link rel="stylesheet" href="./theme/webassets-external/e2189c25a87c7d26d26437c629a0e8f8_fonts.css">
+    <link rel="stylesheet" href="./theme/webassets-external/052bce25270c913a16c504a7a464ce46_font-awesome.css">
+    <link rel="stylesheet" href="./theme/webassets-external/6e1f8fe6d5da0b5867c240e6724cbea7_material-icons.css">
+    <link rel="stylesheet" href="./theme/webassets-external/2106adbed378a29b80ee724153beae5d_pygments.css">
+    <link rel="stylesheet" href="./theme/webassets-external/b9ca9e7f41b89e3fa00f45808f76c752_eevee.css">
+    <link rel="stylesheet" href="./theme/webassets-external/a4bd3799a89f3bf319a983d23ea36e04_custom.css">
+    <script async src="./theme/webassets-external/dbb2bff29449134e95edb598e08cd9d5_material.js">
+    </script>
+</body>
+</html>
