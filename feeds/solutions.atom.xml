@@ -1,5 +1,257 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>#ircpuzzles - solutions</title><link href="https://ircpuzzles.org/" rel="alternate"></link><link href="https://ircpuzzles.org/feeds/solutions.atom.xml" rel="self"></link><id>https://ircpuzzles.org/</id><updated>2018-03-18T19:20:00+00:00</updated><entry><title>2017 April Fool's Day Summary &amp; Solutions</title><link href="https://ircpuzzles.org/2018/03/2017-afd-summary/" rel="alternate"></link><published>2018-03-18T19:20:00+00:00</published><updated>2018-03-18T19:20:00+00:00</updated><author><name>vehk</name></author><id>tag:ircpuzzles.org,2018-03-18:/2018/03/2017-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>#ircpuzzles - solutions</title><link href="https://blog.ircpuzzles.org/" rel="alternate"></link><link href="https://blog.ircpuzzles.org/feeds/solutions.atom.xml" rel="self"></link><id>https://blog.ircpuzzles.org/</id><updated>2018-05-06T16:20:00+00:00</updated><entry><title>2018 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2018/05/2018-afd-summary/" rel="alternate"></link><published>2018-05-06T16:20:00+00:00</published><updated>2018-05-06T16:20:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2018-05-06:/2018/05/2018-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw==&lt;/h3&gt;
+&lt;p&gt;As per ircpuzzles tradition, the first puzzle is simply a base64-encoded
+string. This particular one decodes to: &lt;code&gt;######AFPC2018-VideoGames&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 1 (ybden)&lt;/h2&gt;
+&lt;h3&gt;Clues: Join ######locked. this is the key.&lt;/h3&gt;
+&lt;p&gt;This level introduces channel keys. The solution was to join &lt;code&gt;######locked&lt;/code&gt;
+with the key &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 2 …&lt;/h2&gt;</summary><content type="html">&lt;h2&gt;Level 0 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw==&lt;/h3&gt;
+&lt;p&gt;As per ircpuzzles tradition, the first puzzle is simply a base64-encoded
+string. This particular one decodes to: &lt;code&gt;######AFPC2018-VideoGames&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 1 (ybden)&lt;/h2&gt;
+&lt;h3&gt;Clues: Join ######locked. this is the key.&lt;/h3&gt;
+&lt;p&gt;This level introduces channel keys. The solution was to join &lt;code&gt;######locked&lt;/code&gt;
+with the key &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 2 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: It's dangerous to go alone.&lt;/h3&gt;
+&lt;p&gt;As established in the entry channel, this year's theme was video
+games. The line from the topic is a reference to a very early screen
+in the original &lt;em&gt;Legend of Zelda&lt;/em&gt; game. The complete line from the
+game includes &lt;code&gt;Take this.&lt;/code&gt; at the end. The solution channel was
+&lt;code&gt;######takethis&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 3 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: It is cvgpu oynpx. | Lbh ner yvxryl gb or rngra ol n ...&lt;/h3&gt;
+&lt;p&gt;Originally, this level only contained the first clue - part of a line in plain
+sight, and part of it obscured by rot13. The full line decodes to &lt;code&gt;It is pitch
+black.&lt;/code&gt;, a reference to Infocom's text adventure title &lt;em&gt;Zork&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;One of the mechanics in the game was pitch black rooms that needed a lamp to
+navigate. Should the player venture forth without one, they would be eaten by
+the game's iconic monster - a grue.&lt;/p&gt;
+&lt;p&gt;Every time the player enters a very dark area without a light source,
+the game warns them about this gruesome fate: &lt;code&gt;It is pitch black. You
+are likely to be eaten by a grue&lt;/code&gt;. The second hint is exactly the rest of this
+reference with &lt;code&gt;grue&lt;/code&gt; replaced by &lt;code&gt;...&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Here, the solution channel is therefore &lt;code&gt;######grue&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 4 (vehk/ybden)&lt;/h2&gt;
+&lt;h3&gt;Clues: This company released a console which shares its name with an epic.&lt;/h3&gt;
+&lt;p&gt;This level was a more straightforward fact-hunt rather than decoding clues and
+recognizing or searching for a given reference. The epic in question is
+Homer's &lt;em&gt;Odyssey&lt;/em&gt; - a major Greek poem and sequel to the Iliad.&lt;/p&gt;
+&lt;p&gt;The company in question is &lt;em&gt;Magnavox&lt;/em&gt;, who in 1972 released the first home video
+game console, the &lt;em&gt;Magnavox Odyssey&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The next level: &lt;code&gt;######magnavox&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 5 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: eHl6enkK | response | what you did in the first one&lt;/h3&gt;
+&lt;p&gt;This level originally contained only the first clue, which (like the
+first level) is encoded with base64. It decodes to &lt;code&gt;xyzzy&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;xyzzy&lt;/code&gt; is a command in &lt;em&gt;Colossal Cave Adventure&lt;/em&gt;, a very early text
+adventure game. Upon being given this command in the right room, the
+game would teleport you across the map to another room. Used anywhere
+else, and the game would tell you &lt;code&gt;Nothing happens.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The second clue here makes clear that we were looking for a response to
+the &lt;code&gt;xyzzy&lt;/code&gt; command. Thus, the next level was: &lt;code&gt;######nothinghappens&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 6 (Fuchs)&lt;/h2&gt;
+&lt;h3&gt;Clues: Interlude: A teenage group of nine in the late nineties, going all 3279272253. It really is, isn't it? | https://is.gd/lDrqzw&lt;/h3&gt;
+&lt;p&gt;The Teenage Group of 9 is a hint towards T9, a system to write texts
+faster on a old fashioned phone keyboard, before touchscreens were
+a thing. The second hint is an article about a person using an old
+fashioned Nokia Phone with a phone keyboard, which is another hint
+towards that.&lt;/p&gt;
+&lt;p&gt;The result is &lt;code&gt;######easyascake&lt;/code&gt; which you can get by seeing what
+potential words 3279 27 2253 would generate with T9 - the following
+“It really is, isn’t it?” helping to confirm you got the right
+one.&lt;/p&gt;
+&lt;h2&gt;Level 7 (atk)&lt;/h2&gt;
+&lt;h3&gt;Clues: https://is.gd/E9GSlr&lt;/h3&gt;
+&lt;p&gt;This level uses a &lt;a href="https://en.wikipedia.org/wiki/Nonogram"&gt;Nonogram&lt;/a&gt;
+puzzle to hide a sprite from the 1978 arcade game &lt;em&gt;Space Invaders&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The next level: &lt;code&gt;######spaceinvaders&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 8 (vehk/ybden)&lt;/h2&gt;
+&lt;h3&gt;Clues: C’FGC | Bobbin&lt;/h3&gt;
+&lt;p&gt;This one was a bit trickier. &lt;code&gt;C’FGC&lt;/code&gt; is a draft from LucasArts'
+point-and-click adventure &lt;em&gt;LOOM&lt;/em&gt;. A web search for &lt;code&gt;C’FGC&lt;/code&gt; together
+with &lt;code&gt;video games&lt;/code&gt; was supposed to put players on the right track. Later in
+the game, however, another more obvious clue was added. Bobbin is the name of
+the protagonist in &lt;em&gt;LOOM&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In the game, the &lt;code&gt;C’FGC&lt;/code&gt; draft is called &lt;em&gt;Transcendence&lt;/em&gt;, and therefore the
+next level is &lt;code&gt;######transcendence&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 9 (ybden/vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: Difficult Farflung Islandwhistler | URL | gfycat&lt;/h3&gt;
+&lt;p&gt;This level's topic underwent several drastic changes in the course of
+the competition. The one you see here is the final one. Originally, the
+topic only consisted of the first clue.&lt;/p&gt;
+&lt;p&gt;This puzzle relied on players having seen the memorable
+URL slugs certain websites use for their content. In this
+particular case, the clues linked to a gif on &lt;em&gt;gfycat&lt;/em&gt;:
+https://gfycat.com/DifficultFarflungIslandwhistler&lt;/p&gt;
+&lt;p&gt;The last step was to identify the move portrayed in the gif, which was Ryu's
+&lt;em&gt;Hadouken&lt;/em&gt;. This makes the next level: &lt;code&gt;######hadouken&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 10 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: When danger reared its ugly head / He bravely turned his tail and fled | life | 35°05′14″N 92°27′12″W&lt;/h3&gt;
+&lt;p&gt;Originally, this level only included the first two clues. The first one
+is an excerpt from one of the songs in &lt;em&gt;Monty Python and the Holy
+Grail&lt;/em&gt;. In the film, Sir Robin is first being hailed by his entourage as
+being exceptionally brave, until he encounters a three-headed knight and
+runs away. Following Robin still, the minstrel then derides him, singing
+that he &lt;code&gt;bravely chickened out&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The second one, keeping in mind the video games theme, alludes to
+&lt;em&gt;Conway's Game of Life&lt;/em&gt; (with the third and final clue confirming this).&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.conwaylife.com/wiki/Sir_Robin"&gt;Sir Robin&lt;/a&gt; is a spaceship in
+&lt;em&gt;Conway's Game of Life&lt;/em&gt; found very recently - and the first elementary
+knightship encountered.&lt;/p&gt;
+&lt;p&gt;The solution was the systematic name of Sir Robin, &lt;code&gt;######282P6H2V1&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 11 (Fuchs)&lt;/h2&gt;
+&lt;h3&gt;Clues: In a game with a helpful Error, a bug by his name gave you something to show to …  | If all else fails, use fire&lt;/h3&gt;
+&lt;p&gt;The game we are looking for is &lt;a href="https://en.wikipedia.org/wiki/Zelda_II:_The_Adventure_of_Link"&gt;The Legend
+of Zelda II: The Adventure of Link for the
+NES&lt;/a&gt;,
+a childhood favourite of mine. The game had two oddly named
+characters: Error and Bagu, the latter coming from bug (as in software
+bug).&lt;/p&gt;
+&lt;p&gt;Said Bagu told you to, &lt;code&gt;show my note to river man&lt;/code&gt; (sic!), which was
+thus the answer, &lt;code&gt;######riverman&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Bagu" src="images/afpc2018/bagu.png"&gt;&lt;/p&gt;
+&lt;p&gt;The second hint is from the very same game and makes the solution more
+googleable.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="use fire" src="images/afpc2018/usefire.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Level 12 (Fuchs)&lt;/h2&gt;
+&lt;h3&gt;Clues: Roses are 0°, violets are blue, walk in circles to find the clue. FF007F-0080FF 7F00FF-7FFF00 00FF7F-FF7F00, FF007F-0080FF-00FF7F-FF7F00, FF7F00-FF007F-0080FF-00FF7F 7F00FF-7FFF00 | Green meadows in the east, blue waters in the west, icy cyan in the south ... | the result is quite puzzle related&lt;/h3&gt;
+&lt;p&gt;A slightly harder riddle. &lt;code&gt;Roses are 0°, violets are blue, walk in
+circles to find the clue&lt;/code&gt; is a hint towards a (hue) colour wheel, where red
+is located at 0°.&lt;/p&gt;
+&lt;p&gt;As unfortunately every piece of software places 0° at a different position and
+some even rotate counter clockwise, the hint &lt;code&gt;Green meadows in the east, blue
+waters in the west, icy cyan in the south...&lt;/code&gt; gave you the 
+&lt;a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Color/Normalized_Color_Coordinates"&gt;correct colour circle&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you draw lines from colours separated by - and make a letter for each
+comma-separated colour value, you'll end up with:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="H" src="images/afpc2018/h_hue.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="U" src="images/afpc2018/u_hue.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="E" src="images/afpc2018/e_hue.png"&gt;&lt;/p&gt;
+&lt;p&gt;This gives you the channel name, &lt;code&gt;######HUE&lt;/code&gt;. The last hint shows you that you
+got the right solution.&lt;/p&gt;
+&lt;h2&gt;Level 13 (Fuchs)&lt;/h2&gt;
+&lt;h3&gt;Clues: MPH: gotta go fast, fly high || Topic changed from "go fast" to "gotta go fast"&lt;/h3&gt;
+&lt;p&gt;Here we were looking for a character from the &lt;em&gt;Sonic The Hedgehog&lt;/em&gt; video
+games series. &lt;code&gt;Gotta go fast&lt;/code&gt; is Sonic's motto. However, &lt;code&gt;MPH&lt;/code&gt; and
+&lt;code&gt;fly high&lt;/code&gt; point towards someone else: Sonic has a fox sidekick,
+called Miles &lt;code&gt;Tails&lt;/code&gt; Prower. His theme song, &lt;code&gt;fly high&lt;/code&gt;, was used in
+Sonic Adventure.&lt;/p&gt;
+&lt;p&gt;As you can see in [his wikipedia article](https://en.wikipedia.org/wiki/Tails_(character),
+his full name &lt;code&gt;Miles Prower&lt;/code&gt; is a pun on miles per hour, MPH. Using his two
+tails he can fly short distances. Thus she answer was &lt;code&gt;######tails&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 14 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: https://youtu.be/vbZGtzC_yZo&lt;/h3&gt;
+&lt;p&gt;The song in the topic is a vague reference to the &lt;em&gt;Konami Code&lt;/em&gt;, which allowed
+you to obtain 30 extra lives in the NES version of &lt;em&gt;Contra&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The code itself was a combination of button inputs, namely:
+Up, Up, Down, Down, Left, Right, Left, Right, B, A.&lt;/p&gt;
+&lt;p&gt;The matching solution channel is therefore &lt;code&gt;######UUDDLRLRBA&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 15 (Fuchs/vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: VAC | IRC | Mean, Median, ... | / | here&lt;/h3&gt;
+&lt;p&gt;This puzzle was a very obscure one, and originally only the first
+clue was presented.&lt;/p&gt;
+&lt;p&gt;Valve's own anti-cheating system (VAC) together with the puzzle theme was
+meant to lead players to think about banning, or getting banned.&lt;/p&gt;
+&lt;p&gt;On IRC, one can inspect the ban list using the &lt;code&gt;/mode +b&lt;/code&gt; command, which
+revealed a hidden clue: &lt;code&gt;valve!*@*time* banned by ircpuzzles&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Clues which were added later all hinted towards using the /mode command
+in the channel itself.&lt;/p&gt;
+&lt;p&gt;Thus the answer: &lt;code&gt;######valvetime&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 16 (Fuchs)&lt;/h2&gt;
+&lt;h3&gt;Clues: What kind of beast would get really close to you, just to step back and back again and kick you with No Mercy? | What a rare gem both of these were. | Trust your instinct, preserve your energy&lt;/h3&gt;
+&lt;p&gt;Quite a hard puzzle, looking for a character of the fighting game series
+&lt;em&gt;Killer Instinct&lt;/em&gt;. It was developed by Rare, which the hint &lt;code&gt;What a rare gem
+both of these were&lt;/code&gt; pointed at. Said hint also helped at the end, since Rare
+developed, in its early days under a different name, a game named after the
+solution - Sabre Wulf.&lt;/p&gt;
+&lt;p&gt;Like &lt;em&gt;Mortal Kombat&lt;/em&gt;, Killer Instinct had a finishing move to kill the opponent.
+These were called &lt;code&gt;No Mercy&lt;/code&gt; moves, and used a key combination to trigger.
+The character Sabre Wulf had the combination Back, Back, Kick when standing
+close to the enemy, which the clue hinted at.&lt;/p&gt;
+&lt;p&gt;Another hint helping to find the right game was &lt;code&gt;trust your instinct,
+preserve your energy&lt;/code&gt; - the former hinting at Killer Instinct itself, the
+latter hinting at the game being special compared to others as players
+preserve their energy bar after winning the first of two rounds.&lt;/p&gt;
+&lt;p&gt;The solution channel was: &lt;code&gt;######sabrewulf&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 17 (Fuchs)&lt;/h2&gt;
+&lt;h3&gt;Clues: Interlude: I'm sitting at the table, expensive cutlery in front, but a bit further just a canned food to eat. I look at the nobles across, the poor person on the left, the rich person to the right, and what appears to be a German next to him. The person a bit behind me knows all the answers. It's the seat on their left, their surname and the seat on their right. | Maybe it would help if you sat at a table regularly as well | in the end a black bird will guide the way | no more hints, PERIOD&lt;/h3&gt;
+&lt;p&gt;Arguably the hardest interlude. People should look for the periodic table of
+elements, as hinted at by &lt;code&gt;Maybe it would help if you sat at a table
+regularly as well&lt;/code&gt;, regularly being a synonym for periodically. As this hint
+was not sufficient for everybody, &lt;code&gt;no more hints, PERIOD&lt;/code&gt; was added later
+on.&lt;/p&gt;
+&lt;p&gt;It starts at 46, Palladium, which has Silver and Gold (expensive cutlery) in
+front. A bit further in this direction is Tin, thus canned food. The noble
+gasses are the nobles across the table, Nickel, left of Palladium, is used for
+the poor person (from the US 5 cent coin nicknamed nickel, and &lt;code&gt;bring your
+nickles for the poor&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;To the right is Platinum (rich person), followed by Darmstadtium, which is
+named after the German city of Darmstadt.&lt;/p&gt;
+&lt;p&gt;A bit behind Palladium is Molybdenum, with an atomic number of 42, referencing
+the Hitchhiker's Guide to the Galaxy's answer to everything - 42.&lt;/p&gt;
+&lt;p&gt;Left of them is Chromium (Cr), right of them is Tungsten (W), together with
+the o from Molybdenum you get &lt;code&gt;######crow&lt;/code&gt;, which is the black bird hinted at.&lt;/p&gt;
+&lt;h2&gt;Level 18 (vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: 9 8 7 4 1 2 3 | 7 8 5 2 3 | 1 4 8 5 6 3 | 7 4 5 9 6 3 | 1 4 7 8 6 2 | 3x3 | numpad&lt;/h3&gt;
+&lt;p&gt;The numbers given in the topic, when followed on the numpad, spell out:
+&lt;code&gt;c2a4d&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;At this point, players were expected to figure out how that related to video
+games. In the original &lt;em&gt;Half-Life&lt;/em&gt;, map names were a combination of letters and
+digits. The level with the map name c2a4d was called &lt;code&gt;Questionable Ethics&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Therefore, &lt;code&gt;######QuestionableEthics&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 19 (Fuchs)&lt;/h2&gt;
+&lt;h3&gt;Clues: Foff0 Xuho: Te u ###### (Q eh H knaso)! | https://www.youtube.com/watch?v=l-O5IHVhWj0 | All I wanted was having a blast, got lousy staff instead | Good Luck | https://imgur.com/a/ihv0x&lt;/h3&gt;
+&lt;p&gt;Obviously I had to somehow bring in the &lt;em&gt;Star Fox&lt;/em&gt; video game series, as it is
+one of my all time favourites. However, the regular ones would have been all
+rather easy, so I took the probably least known game out of it, &lt;em&gt;Star Fox
+Adventures&lt;/em&gt;. A rather unusual game, since it's not a space shooter, but a
+&lt;em&gt;Legend of Zelda&lt;/em&gt; inspired adventure game, and the very last game Rare developed
+for a Nintendo console.&lt;/p&gt;
+&lt;p&gt;In this game, you get a very annoying sidekick dinosaur called Tricky, hence
+the first hint, &lt;a href="https://www.youtube.com/watch?v=l-O5IHVhWj0"&gt;It's Tricky, by Run DMC&lt;/a&gt;.
+Another hint at the game was &lt;code&gt;All I wanted was having a blast, got lousy
+staff instead&lt;/code&gt; based on the gag that they had to explain why Fox couldn't
+take his usual blaster along and got a staff as weapon instead. Also &lt;code&gt;Good
+Luck&lt;/code&gt; is what General Pepper says before missions in most Star Fox games.&lt;/p&gt;
+&lt;p&gt;The dinosaurs had their own language, which was based on a letter shift
+created in a way that still sounds okay when spoken, which was mostly achieved
+by not shifting a given amount of letters, but rather replace vowels with
+other vowels.&lt;/p&gt;
+&lt;p&gt;The image hinted at that by abusing a well known meme and translating &lt;code&gt;RAWR&lt;/code&gt;
+with the Star Fox dinosaur language, which gave &lt;code&gt;BIGB&lt;/code&gt;. If you translated
+the clue, for example via https://saurian.krystalarchive.com/, you got:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Peppy Hare: Do a ###### (Z or R twice)!&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This is the well known &lt;code&gt;Do a barrel roll&lt;/code&gt; meme, originating from the N64
+Star Fox game where Peppy shouts this at you as a hint.&lt;/p&gt;
+&lt;p&gt;Translating &lt;code&gt;barrel roll&lt;/code&gt; back to dinosaur finally gave you the channel
+name: &lt;code&gt;######ruhhochecc&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Level 20 (vehk/atk)&lt;/h2&gt;
+&lt;h3&gt;Clues: https://is.gd/XI9zXU | middle&lt;/h3&gt;
+&lt;p&gt;Putting the audio file from the topic into a spectrogram analyzer yielded a
+set of emoji characters: 👨🖌️3️ 🅿️🌴&lt;/p&gt;
+&lt;p&gt;With a little bit of imagination, one arrives at &lt;code&gt;Guy Brush Three P Wood&lt;/code&gt;,
+which, when searched for or remembered, is the name of the protagonist of the
+&lt;em&gt;Monkey Island&lt;/em&gt; games.&lt;/p&gt;
+&lt;p&gt;Guybrush Threepwood has a middle name, Ulysses. Therefore, the solution
+channel was: &lt;code&gt;######ulysses&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 21 (ybden/vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: https://is.gd/FwIbsg&lt;/h3&gt;
+&lt;p&gt;The penultimate level. The image depicts a Fez, hinting at the
+game &lt;em&gt;FEZ&lt;/em&gt;, a puzzle-platformer. Not immediately visible, but
+discernible after some modification in an image editor, one comes across
+hieroglyph-like characters in the top right corner of the image.&lt;/p&gt;
+&lt;p&gt;The characters are from FEZ's in-game alphabet, and spell out text from the
+Rosetta Stone after being deciphered: &lt;code&gt;PTOLEMY, THE EVER-LIVING, THE BELOVED
+OF PTAH, THE GOD EPIPHANES EUCHARISTOS&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The solution therefore: &lt;code&gt;######rosettastone&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Level 22 (grumble/vehk)&lt;/h2&gt;
+&lt;h3&gt;Clues: Do you want to win?&lt;/h3&gt;
+&lt;p&gt;Possibly the most complex of this year's puzzles - and the final level.&lt;/p&gt;
+&lt;p&gt;The winner's circle: &lt;code&gt;######yes&lt;/code&gt;&lt;/p&gt;</content><category term="solutions"></category></entry><entry><title>2017 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2018/03/2017-afd-summary/" rel="alternate"></link><published>2018-03-18T19:20:00+00:00</published><updated>2018-03-18T19:20:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2018-03-18:/2018/03/2017-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY=&lt;/li&gt;
 &lt;li&gt;The answer: &lt;code&gt;######AFD2017Start-CryptoNews&lt;/code&gt; decoding the clue with base64, and then rot13&lt;/li&gt;
@@ -135,7 +387,7 @@
    10 00 00 10 10 00 10 00 00 01 00 10&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;The last three hints were expected to lead people to try decoding the bits as braille&lt;/li&gt;
 &lt;li&gt;The answer: &lt;code&gt;######marc.stevens&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>2016 April Fool's Day (AFD) Summary &amp; Solutions</title><link href="https://ircpuzzles.org/2017/03/2016-afd-summary/" rel="alternate"></link><published>2017-03-31T15:48:00+00:00</published><updated>2017-03-31T15:48:00+00:00</updated><author><name>vehk</name></author><id>tag:ircpuzzles.org,2017-03-31:/2017/03/2016-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="solutions"></category></entry><entry><title>2016 April Fool's Day (AFD) Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2017/03/2016-afd-summary/" rel="alternate"></link><published>2017-03-31T15:48:00+00:00</published><updated>2017-03-31T15:48:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2016-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;######AFD2016Start&lt;/strong&gt;, decoding the clue with base64&lt;/li&gt;
@@ -342,7 +594,7 @@
 &lt;li&gt;Scanning the QR-code reveals the message "Спутник-1"&lt;/li&gt;
 &lt;li&gt;Find Baikonur Cosmodrome on the Wikipedia page for Спутник-1 (Sputnik 1)&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;######BaikonurCosmodrome&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>2015 April Fool's Day (AFD) Summary &amp; Solutions</title><link href="https://ircpuzzles.org/2017/03/2015-afd-summary/" rel="alternate"></link><published>2017-03-31T15:47:00+00:00</published><updated>2017-03-31T15:47:00+00:00</updated><author><name>vehk</name></author><id>tag:ircpuzzles.org,2017-03-31:/2017/03/2015-afd-summary/</id><summary type="html">&lt;h2&gt;Level -2&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="solutions"></category></entry><entry><title>2015 April Fool's Day (AFD) Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2017/03/2015-afd-summary/" rel="alternate"></link><published>2017-03-31T15:47:00+00:00</published><updated>2017-03-31T15:47:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2015-afd-summary/</id><summary type="html">&lt;h2&gt;Level -2&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: morning light&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;####east&lt;/strong&gt;; the cardinal direction in which the sun rises&lt;/li&gt;
@@ -450,4 +702,4 @@
 &lt;li&gt;Opening the gist yields: Sm9pbiAjIyMjeHN2NHp1aHdlNWxkNGY0aWo1M2EgYW5kIHNheTogIkkgbG92ZSBUYXlsb3IgU3dpZnQhIEhlciBtdXNpYyBpcyBhbWF6aW5nISI=&lt;/li&gt;
 &lt;li&gt;Decoding this string with base64 results in: Join &lt;strong&gt;####xsv4zuhwe5ld4f4ij53a&lt;/strong&gt; and say: "I love Taylor Swift! Her music is amazing!"&lt;/li&gt;
 &lt;li&gt;The topic of &lt;strong&gt;####xsv4zuhwe5ld4f4ij53a&lt;/strong&gt; is: You have won the game! | TAYLOR SWIFT IS THE MOST AMAZING MUSICIAN EVER!&lt;/li&gt;
-&lt;/ul&gt;</content></entry></feed>
+&lt;/ul&gt;</content><category term="solutions"></category></entry></feed>

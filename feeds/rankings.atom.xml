@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>#ircpuzzles - rankings</title><link href="https://ircpuzzles.org/" rel="alternate"></link><link href="https://ircpuzzles.org/feeds/rankings.atom.xml" rel="self"></link><id>https://ircpuzzles.org/</id><updated>2018-04-18T12:45:00+00:00</updated><entry><title>2018 April Fool's Puzzle and Competition Rankings</title><link href="https://ircpuzzles.org/2018/04/2018-april-fools-rankings/" rel="alternate"></link><published>2018-04-18T12:45:00+00:00</published><updated>2018-04-18T12:45:00+00:00</updated><author><name>yano</name></author><id>tag:ircpuzzles.org,2018-04-18:/2018/04/2018-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>#ircpuzzles - rankings</title><link href="https://blog.ircpuzzles.org/" rel="alternate"></link><link href="https://blog.ircpuzzles.org/feeds/rankings.atom.xml" rel="self"></link><id>https://blog.ircpuzzles.org/</id><updated>2018-04-18T12:45:00+00:00</updated><entry><title>2018 April Fool's Puzzle and Competition Rankings</title><link href="https://blog.ircpuzzles.org/2018/04/2018-april-fools-rankings/" rel="alternate"></link><published>2018-04-18T12:45:00+00:00</published><updated>2018-04-18T12:45:00+00:00</updated><author><name>yano</name></author><id>tag:blog.ircpuzzles.org,2018-04-18:/2018/04/2018-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -18,8 +18,8 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="center"&gt;2.&lt;/td&gt;
-&lt;td align="center"&gt;pavonia&lt;/td&gt;
 &lt;td align="center"&gt;siracusa&lt;/td&gt;
+&lt;td align="center"&gt;pavonia&lt;/td&gt;
 &lt;td align="center"&gt;2018-04-05 04:26:19&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -30,8 +30,8 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="center"&gt;4.&lt;/td&gt;
-&lt;td align="center"&gt;MD87&amp;#124;&lt;/td&gt;
 &lt;td align="center"&gt;MD87&lt;/td&gt;
+&lt;td align="center"&gt;MD87&amp;#124;&lt;/td&gt;
 &lt;td align="center"&gt;2018-04-05 17:49:21&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -57,8 +57,8 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="center"&gt;2.&lt;/td&gt;
-&lt;td align="center"&gt;pavonia&lt;/td&gt;
 &lt;td align="center"&gt;siracusa&lt;/td&gt;
+&lt;td align="center"&gt;pavonia&lt;/td&gt;
 &lt;td align="center"&gt;2018-04-05 04:26:19&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -69,8 +69,8 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="center"&gt;4.&lt;/td&gt;
-&lt;td align="center"&gt;MD87&amp;#124;&lt;/td&gt;
 &lt;td align="center"&gt;MD87&lt;/td&gt;
+&lt;td align="center"&gt;MD87&amp;#124;&lt;/td&gt;
 &lt;td align="center"&gt;2018-04-05 17:49:21&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -93,8 +93,8 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="center"&gt;8.&lt;/td&gt;
-&lt;td align="center"&gt;AhoChan&lt;/td&gt;
 &lt;td align="center"&gt;gracefu&lt;/td&gt;
+&lt;td align="center"&gt;AhoChan&lt;/td&gt;
 &lt;td align="center"&gt;2018-04-09 10:44:21&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -105,12 +105,12 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="center"&gt;10.&lt;/td&gt;
-&lt;td align="center"&gt;vetsin&lt;/td&gt;
 &lt;td align="center"&gt;Vetsin&lt;/td&gt;
+&lt;td align="center"&gt;vetsin&lt;/td&gt;
 &lt;td align="center"&gt;2018-04-12 04:26:37&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content></entry><entry><title>2017 April Fool's Day Rankings</title><link href="https://ircpuzzles.org/2018/02/2017-april-fools-rankings/" rel="alternate"></link><published>2018-02-20T19:00:00+00:00</published><updated>2018-02-20T19:00:00+00:00</updated><author><name>yano</name></author><id>tag:ircpuzzles.org,2018-02-20:/2018/02/2017-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
+&lt;/table&gt;</content><category term="rankings"></category></entry><entry><title>2017 April Fool's Day Rankings</title><link href="https://blog.ircpuzzles.org/2018/02/2017-april-fools-rankings/" rel="alternate"></link><published>2018-02-20T19:00:00+00:00</published><updated>2018-02-20T19:00:00+00:00</updated><author><name>yano</name></author><id>tag:blog.ircpuzzles.org,2018-02-20:/2018/02/2017-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;nikuhodai&lt;/strong&gt;, 2017-04-05 13:46:39&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;mark2222&lt;/strong&gt;, 2017-04-07 07:38:24&lt;/li&gt;
@@ -130,7 +130,7 @@
 &lt;li&gt;&lt;strong&gt;Omniflux&lt;/strong&gt;, 2017-04-16 04:45:33&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ESphynx/ecere&lt;/strong&gt;, 2017-04-16 06:13:25&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Snicksie&lt;/strong&gt;, 2017-04-23 22:51:10&lt;/li&gt;
-&lt;/ol&gt;</content></entry><entry><title>2016 April Fool's Day Rankings</title><link href="https://ircpuzzles.org/2017/04/2016-april-fools-rankings/" rel="alternate"></link><published>2017-04-04T19:00:00+00:00</published><updated>2017-04-04T19:00:00+00:00</updated><author><name>yano</name></author><id>tag:ircpuzzles.org,2017-04-04:/2017/04/2016-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
+&lt;/ol&gt;</content><category term="rankings"></category></entry><entry><title>2016 April Fool's Day Rankings</title><link href="https://blog.ircpuzzles.org/2017/04/2016-april-fools-rankings/" rel="alternate"></link><published>2017-04-04T19:00:00+00:00</published><updated>2017-04-04T19:00:00+00:00</updated><author><name>yano</name></author><id>tag:blog.ircpuzzles.org,2017-04-04:/2017/04/2016-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;vehk&lt;/strong&gt; 2016-04-06 17:09:38&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;nikuhodai&lt;/strong&gt; 2016-04-06 19:34:56&lt;/li&gt;
@@ -149,7 +149,7 @@
 &lt;li&gt;&lt;strong&gt;stac&lt;/strong&gt; 2016-04-18 11:08:02&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Omniflux&lt;/strong&gt; 2016-04-19 03:32:19&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;brrr&lt;/strong&gt; 2016-04-21 00:15:28&lt;/li&gt;
-&lt;/ol&gt;</content></entry><entry><title>2015 April Fool's Day Rankings</title><link href="https://ircpuzzles.org/2017/04/2015-april-fools-rankings/" rel="alternate"></link><published>2017-04-03T19:00:00+00:00</published><updated>2017-04-03T19:00:00+00:00</updated><author><name>yano</name></author><id>tag:ircpuzzles.org,2017-04-03:/2017/04/2015-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
+&lt;/ol&gt;</content><category term="rankings"></category></entry><entry><title>2015 April Fool's Day Rankings</title><link href="https://blog.ircpuzzles.org/2017/04/2015-april-fools-rankings/" rel="alternate"></link><published>2017-04-03T19:00:00+00:00</published><updated>2017-04-03T19:00:00+00:00</updated><author><name>yano</name></author><id>tag:blog.ircpuzzles.org,2017-04-03:/2017/04/2015-april-fools-rankings/</id><summary type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;pdx&lt;/strong&gt; 2015-04-03 07:48:34&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;FireFly&lt;/strong&gt; 2015-04-03 13:56:34&lt;/li&gt;
@@ -170,4 +170,4 @@
 &lt;li&gt;&lt;strong&gt;Omniflux&lt;/strong&gt; 2015-04-04 06:29:40&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;nyuszika7h&lt;/strong&gt; 2015-04-04 10:44:54&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;larina&lt;/strong&gt; 2015-04-04 14:45:48&lt;/li&gt;
-&lt;/ol&gt;</content></entry></feed>
+&lt;/ol&gt;</content><category term="rankings"></category></entry></feed>
