@@ -1,61 +1,158 @@
 <!DOCTYPE html>
+<!--
+    (The MIT License)
+
+    Copyright (c) 2016 Kura
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the 'Software'), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
+<head id="head">
+    <meta charset="utf-8">
     <meta name="viewport"
-          content="width=device-width,initial-scale=1,maximum-scale=1" />
-<link rel="dns-prefetch" href="https://blog.ircpuzzles.org" />
-<link rel="dns-prefetch" href="//code.getmdl.io" />
-    <link rel="dns-prefetch" href="//disqus.com" />
-    <link rel="dns-prefetch" href="//a.disquscdn.com" />
-    <link rel="dns-prefetch" href="//ircpuzzles.disqus.com" />
-    <link rel="dns-prefetch" href="//glitter-services.disqus.com" />
-    <link href="https://blog.ircpuzzles.org/feeds/all.rss.xml" type="application/atom+xml"
-          rel="alternate" title="#ircpuzzles" />
-    <meta property="og:site_name" content="#ircpuzzles" />
-    <meta property="og:type" content="article" />
-        <meta property="og:title" content="#ircpuzzles" />
-        <meta property="og:url" content="https://blog.ircpuzzles.org/author/vehk.html" />
-        <meta property="twitter:site" content="@ircpuzzles" />
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="alternate" href="https://blog.ircpuzzles.org" hreflang="en" />
+<link rel="dns-prefetch" href="https://blog.ircpuzzles.org">
+<link rel="dns-prefetch" href="//code.getmdl.io">
+    <link rel="dns-prefetch" href="//disqus.com">
+    <link rel="dns-prefetch" href="//a.disquscdn.com">
+    <link rel="dns-prefetch" href="//ircpuzzles.disqus.com">
+    <link rel="dns-prefetch" href="//glitter-services.disqus.com">
+    <link rel="dns-prefetch" href="//google-analytics.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link href="https://blog.ircpuzzles.org/feeds/all.rss.xml" type="application/rss+xml"
+          rel="alternate" title="#ircpuzzles">
+    <meta property="og:site_name" content="#ircpuzzles">
+    <meta property="og:type" content="article">
+        <meta property="og:title"
+              content="#ircpuzzles">
+        <meta property="og:url" content="https://blog.ircpuzzles.org/author/vehk.html">
+        <meta property="twitter:site" content="@ircpuzzles">
         <meta property="twitter:title"
-              content="#ircpuzzles" />
+              content="#ircpuzzles">
         <meta property="twitter:url"
-              content="https://blog.ircpuzzles.org/author/vehk.html" />
-            <meta property="twitter:card" content="summary" />
-    <link rel="shortcut icon" href="https://blog.ircpuzzles.org/favicon.ico" />
+              content="https://blog.ircpuzzles.org/author/vehk.html">
+            <meta property="twitter:card" content="summary">
+    <link rel="shortcut icon" href="https://blog.ircpuzzles.org/favicon.ico">
     <title>vehk</title>
 </head>
 <body>
-    <div class="eevee-layout mdl-layout mdl-layout--fixed-header
-                mdl-js-layout mdl-color--grey-100">
-       <header class="eevee-header mdl-layout__header
-                      mdl-layout__header--scroll mdl-color--grey-100
-                      mdl-color-text--grey-800">
-           <div class="mdl-layout__header-row">
-                <span class="eevee-logo mdl-color-text--accent
-                             mdl-layout-title">
-                   <h3><a href="https://blog.ircpuzzles.org">#ircpuzzles</a></h3>
+    <div class="eevee-layout mdl-layout mdl-js-layout mdl-color--grey-50">
+        <header class="eevee-header mdl-color--grey-50 mdl-color-text--grey-800"
+                itemscope itemtype="http://schema.org/WPHeader">
+            <div class="mdl-layout__header-row" id="top">
+                <div aria-expanded="false" role="button" tabindex="0"
+                     class="mdl-layout__drawer-button mdl-color-text--accent eevee-mobile-button mdl-layout--small-screen-only">
+                    <i class="material-icons">&#xE5D2;</i>
+                </div>
+                <span class="eevee-logo mdl-color-text--accent mdl-layout-title">
+                    <h2>
+                        <a href="https://blog.ircpuzzles.org" rel="bookmark"
+                           title="#ircpuzzles">
+                            #ircpuzzles
+                        </a>
+                    </h2>
                 </span>
-                <div class="mdl-layout-spacer"></div>
-<nav class="eevee-nav mdl-navigation mdl-layout--large-screen-only">
-</nav>            </div>
+                <div class="mdl-layout-spacer" role="presentation"></div>
+                <nav class="eevee-nav mdl-navigation mdl-layout--large-screen-only"
+                     itemscope itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="https://blog.ircpuzzles.org/feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+                </nav>
+            </div>
         </header>
-        <div class="eevee-ribbon mdl-color--primary-dark"></div>
+        <div class="eevee-mobile-header mdl-layout__drawer mdl-color--white"
+             aria-hidden="true">
+            <span class="mdl-layout-title">
+                <h2 class="eevee-mobile-logo mdl-color-text--accent">
+                    #ircpuzzles
+                </h2>
+            </span>
+            <div class="mdl-navigation mdl-color--white">
+                <nav class="eevee-nav mdl-navigation" itemscope
+                     itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+                    <a class="mdl-color-text--accent mdl-navigation__link"
+                       href="https://blog.ircpuzzles.org" itemprop="url" rel="bookmark">
+                        Home
+                    </a>
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="https://blog.ircpuzzles.org/feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="eevee-ribbon mdl-color--primary-dark" role="presentation">
+        </div>
         <main class="eevee-main mdl-layout__content">
             <div class="eevee-container mdl-grid">
-                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet
-                            mdl-cell--hide-phone"></div>
-                <div class="eevee-content mdl-color--white mdl-shadow--4dp
-                            mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-    <article class="eevee-padding">
-        <div class="eevee-meta mdl-color-text--grey-500">
-            2018-05-06 16:20
-        </div>
-        <h2><a href="https://blog.ircpuzzles.org/2018/05/2018-afd-summary/" rel="bookmark"
-               title="Permalink to 2018 April Fool's Day Summary & Solutions">
-            2018 April Fool's Day Summary & Solutions
-        </a></h2>
-        <h2>Level 0 (vehk)</h2>
+                <div role="presentation"
+                     class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+                </div>
+                <div class="eevee-content mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--8-col"
+                     aria-label="Main content">
+        <article class="eevee-padding" itemscope
+                 itemtype="http://schema.org/BlogPosting">
+<meta itemprop="accessibilityControl" content="fullKeyboardControl">
+<meta itemprop="accessibilityControl" content="fullMouseControl">
+<meta itemprop="accessibilityControl" content="bookmarks">
+<meta itemprop="accessibilityControl" content="captions">
+<meta itemprop="accessibilityControl" content="alternativeText">
+<meta itemprop="accessibilityControl" content="index">
+<meta itemprop="accessibilityControl" content="readingOrder">
+<meta itemprop="accessibilityControl" content="structuralNavigation">
+<meta itemprop="accessibilityControl" content="tableOfContents">
+<meta itemprop="accessibilityHazard" content="noFlashingHazard">
+<meta itemprop="accessibilityHazard" content="noMotionSimulationHazard">
+<meta itemprop="accessibilityHazard" content="noSoundHazard">
+<meta itemprop="accessibilityAPI" content="ARIA">
+    <div itemprop="author" itemscope
+         itemtype="https://schema.org/Person" role="presentation">
+        <a href="https://blog.ircpuzzles.org/author/vehk.html" class="hidden"
+           itemprop="url" role="presentation">
+            <span class="hidden" itemprop="name" role="presentation">
+                vehk
+            </span>
+        </a>
+    </div>
+        <meta itemprop="keywords" content="solutions">
+            <div class="eevee-meta mdl-color-text--grey-500">
+                <time datetime="2018-05-06T16:20:00+00:00"
+                      itemprop="datePublished">
+                    2018-05-06 16:20
+                </time>
+            </div>
+            <h2 itemprop="name" class="article-title">
+                <a href="https://blog.ircpuzzles.org/2018/05/2018-afd-summary/" rel="bookmark"
+                   title="Permalink to '2018 April Fool's Day Summary & Solutions'"
+                   itemprop="url">
+                2018 April Fool's Day Summary & Solutions
+                </a>
+            </h2>
+            <section itemprop="articleBody" class="summary-content">
+                <h2>Level 0 (vehk)</h2>
 <h3>Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw==</h3>
 <p>As per ircpuzzles tradition, the first puzzle is simply a base64-encoded
 string. This particular one decodes to: <code>######AFPC2018-VideoGames</code>.</p>
@@ -64,17 +161,56 @@ string. This particular one decodes to: <code>######AFPC2018-VideoGames</code>.<
 <p>This level introduces channel keys. The solution was to join <code>######locked</code>
 with the key <code>this</code>.</p>
 <h2>Level 2 …</h2>
-        <div class="eevee-divider mdl-color--accent"></div>
-    </article>
-    <article class="eevee-padding">
-        <div class="eevee-meta mdl-color-text--grey-500">
-            2018-03-18 19:20
-        </div>
-        <h2><a href="https://blog.ircpuzzles.org/2018/03/2017-afd-summary/" rel="bookmark"
-               title="Permalink to 2017 April Fool's Day Summary & Solutions">
-            2017 April Fool's Day Summary & Solutions
-        </a></h2>
-        <h2>Level 0</h2>
+            </section>
+                <div class="eevee-divider mdl-color--accent" role="presentation">
+                </div>
+                <div class="eevee-divider-to-top">
+                    <a href="#top" title="Back to the top of the page"
+                       itemprop="url">
+                        Back to the top of the page
+                    </a>
+                </div>
+        </article>
+        <article class="eevee-padding" itemscope
+                 itemtype="http://schema.org/BlogPosting">
+<meta itemprop="accessibilityControl" content="fullKeyboardControl">
+<meta itemprop="accessibilityControl" content="fullMouseControl">
+<meta itemprop="accessibilityControl" content="bookmarks">
+<meta itemprop="accessibilityControl" content="captions">
+<meta itemprop="accessibilityControl" content="alternativeText">
+<meta itemprop="accessibilityControl" content="index">
+<meta itemprop="accessibilityControl" content="readingOrder">
+<meta itemprop="accessibilityControl" content="structuralNavigation">
+<meta itemprop="accessibilityControl" content="tableOfContents">
+<meta itemprop="accessibilityHazard" content="noFlashingHazard">
+<meta itemprop="accessibilityHazard" content="noMotionSimulationHazard">
+<meta itemprop="accessibilityHazard" content="noSoundHazard">
+<meta itemprop="accessibilityAPI" content="ARIA">
+    <div itemprop="author" itemscope
+         itemtype="https://schema.org/Person" role="presentation">
+        <a href="https://blog.ircpuzzles.org/author/vehk.html" class="hidden"
+           itemprop="url" role="presentation">
+            <span class="hidden" itemprop="name" role="presentation">
+                vehk
+            </span>
+        </a>
+    </div>
+        <meta itemprop="keywords" content="solutions">
+            <div class="eevee-meta mdl-color-text--grey-500">
+                <time datetime="2018-03-18T19:20:00+00:00"
+                      itemprop="datePublished">
+                    2018-03-18 19:20
+                </time>
+            </div>
+            <h2 itemprop="name" class="article-title">
+                <a href="https://blog.ircpuzzles.org/2018/03/2017-afd-summary/" rel="bookmark"
+                   title="Permalink to '2017 April Fool's Day Summary & Solutions'"
+                   itemprop="url">
+                2017 April Fool's Day Summary & Solutions
+                </a>
+            </h2>
+            <section itemprop="articleBody" class="summary-content">
+                <h2>Level 0</h2>
 <ul>
 <li>Clue: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY=</li>
 <li>The answer: <code>######AFD2017Start-CryptoNews</code> decoding the clue with base64, and then rot13</li>
@@ -89,17 +225,56 @@ with the key <code>this</code>.</p>
 <h2>Level 2</h2>
 <ul>
 <li>Clues …</li></ul>
-        <div class="eevee-divider mdl-color--accent"></div>
-    </article>
-    <article class="eevee-padding">
-        <div class="eevee-meta mdl-color-text--grey-500">
-            2017-03-31 15:48
-        </div>
-        <h2><a href="https://blog.ircpuzzles.org/2017/03/2016-afd-summary/" rel="bookmark"
-               title="Permalink to 2016 April Fool's Day (AFD) Summary & Solutions">
-            2016 April Fool's Day (AFD) Summary & Solutions
-        </a></h2>
-        <h2>Level 0</h2>
+            </section>
+                <div class="eevee-divider mdl-color--accent" role="presentation">
+                </div>
+                <div class="eevee-divider-to-top">
+                    <a href="#top" title="Back to the top of the page"
+                       itemprop="url">
+                        Back to the top of the page
+                    </a>
+                </div>
+        </article>
+        <article class="eevee-padding" itemscope
+                 itemtype="http://schema.org/BlogPosting">
+<meta itemprop="accessibilityControl" content="fullKeyboardControl">
+<meta itemprop="accessibilityControl" content="fullMouseControl">
+<meta itemprop="accessibilityControl" content="bookmarks">
+<meta itemprop="accessibilityControl" content="captions">
+<meta itemprop="accessibilityControl" content="alternativeText">
+<meta itemprop="accessibilityControl" content="index">
+<meta itemprop="accessibilityControl" content="readingOrder">
+<meta itemprop="accessibilityControl" content="structuralNavigation">
+<meta itemprop="accessibilityControl" content="tableOfContents">
+<meta itemprop="accessibilityHazard" content="noFlashingHazard">
+<meta itemprop="accessibilityHazard" content="noMotionSimulationHazard">
+<meta itemprop="accessibilityHazard" content="noSoundHazard">
+<meta itemprop="accessibilityAPI" content="ARIA">
+    <div itemprop="author" itemscope
+         itemtype="https://schema.org/Person" role="presentation">
+        <a href="https://blog.ircpuzzles.org/author/vehk.html" class="hidden"
+           itemprop="url" role="presentation">
+            <span class="hidden" itemprop="name" role="presentation">
+                vehk
+            </span>
+        </a>
+    </div>
+        <meta itemprop="keywords" content="solutions">
+            <div class="eevee-meta mdl-color-text--grey-500">
+                <time datetime="2017-03-31T15:48:00+00:00"
+                      itemprop="datePublished">
+                    2017-03-31 15:48
+                </time>
+            </div>
+            <h2 itemprop="name" class="article-title">
+                <a href="https://blog.ircpuzzles.org/2017/03/2016-afd-summary/" rel="bookmark"
+                   title="Permalink to '2016 April Fool's Day (AFD) Summary & Solutions'"
+                   itemprop="url">
+                2016 April Fool's Day (AFD) Summary & Solutions
+                </a>
+            </h2>
+            <section itemprop="articleBody" class="summary-content">
+                <h2>Level 0</h2>
 <ul>
 <li>Clue: IyMjIyMjQUZEMjAxNlN0YXJ0</li>
 <li>The answer: <strong>######AFD2016Start</strong>, decoding the clue with base64</li>
@@ -117,17 +292,56 @@ with the key <code>this</code>.</p>
 <li>The answer: <strong>######Spaaaaaaaaaaaaaaaacccceeeee</strong></li>
 </ul>
 <h2>Level 3 …</h2>
-        <div class="eevee-divider mdl-color--accent"></div>
-    </article>
-    <article class="eevee-padding">
-        <div class="eevee-meta mdl-color-text--grey-500">
-            2017-03-31 15:47
-        </div>
-        <h2><a href="https://blog.ircpuzzles.org/2017/03/2015-afd-summary/" rel="bookmark"
-               title="Permalink to 2015 April Fool's Day (AFD) Summary & Solutions">
-            2015 April Fool's Day (AFD) Summary & Solutions
-        </a></h2>
-        <h2>Level -2</h2>
+            </section>
+                <div class="eevee-divider mdl-color--accent" role="presentation">
+                </div>
+                <div class="eevee-divider-to-top">
+                    <a href="#top" title="Back to the top of the page"
+                       itemprop="url">
+                        Back to the top of the page
+                    </a>
+                </div>
+        </article>
+        <article class="eevee-padding" itemscope
+                 itemtype="http://schema.org/BlogPosting">
+<meta itemprop="accessibilityControl" content="fullKeyboardControl">
+<meta itemprop="accessibilityControl" content="fullMouseControl">
+<meta itemprop="accessibilityControl" content="bookmarks">
+<meta itemprop="accessibilityControl" content="captions">
+<meta itemprop="accessibilityControl" content="alternativeText">
+<meta itemprop="accessibilityControl" content="index">
+<meta itemprop="accessibilityControl" content="readingOrder">
+<meta itemprop="accessibilityControl" content="structuralNavigation">
+<meta itemprop="accessibilityControl" content="tableOfContents">
+<meta itemprop="accessibilityHazard" content="noFlashingHazard">
+<meta itemprop="accessibilityHazard" content="noMotionSimulationHazard">
+<meta itemprop="accessibilityHazard" content="noSoundHazard">
+<meta itemprop="accessibilityAPI" content="ARIA">
+    <div itemprop="author" itemscope
+         itemtype="https://schema.org/Person" role="presentation">
+        <a href="https://blog.ircpuzzles.org/author/vehk.html" class="hidden"
+           itemprop="url" role="presentation">
+            <span class="hidden" itemprop="name" role="presentation">
+                vehk
+            </span>
+        </a>
+    </div>
+        <meta itemprop="keywords" content="solutions">
+            <div class="eevee-meta mdl-color-text--grey-500">
+                <time datetime="2017-03-31T15:47:00+00:00"
+                      itemprop="datePublished">
+                    2017-03-31 15:47
+                </time>
+            </div>
+            <h2 itemprop="name" class="article-title">
+                <a href="https://blog.ircpuzzles.org/2017/03/2015-afd-summary/" rel="bookmark"
+                   title="Permalink to '2015 April Fool's Day (AFD) Summary & Solutions'"
+                   itemprop="url">
+                2015 April Fool's Day (AFD) Summary & Solutions
+                </a>
+            </h2>
+            <section itemprop="articleBody" class="summary-content">
+                <h2>Level -2</h2>
 <ul>
 <li>Clue: morning light</li>
 <li>The answer: <strong>####east</strong>; the cardinal direction in which the sun rises</li>
@@ -146,66 +360,103 @@ with the key <code>this</code>.</p>
 <h2>Level 1</h2>
 <ul>
 <li>Clue …</li></ul>
-        <div class="eevee-divider mdl-color--accent"></div>
-    </article>
+            </section>
+        </article>
+    <div class="eevee-page-spacer" role="presentation"></div>
                 </div>
             </div>
-            <footer class="mdl-mega-footer">
-<div class="mdl-mega-footer--middle-section">
+        </main>
+        <footer class="mdl-mega-footer" itemscope
+                itemtype="http://schema.org/SiteNavigationElement">
+            <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--drop-down-section">
+                    <ul class="mdl-mega-footer--link-list">
+                        <li>
+                            <a href="#top" itemprop="url"
+                               title="Back to the top of the page">
+                                Back to the top of the page
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<div class="mdl-mega-footer--middle-section" itemscope
+     itemtype="http://schema.org/SiteNavigationElement"
+     aria-label="Footer navigation">
     <div class="mdl-mega-footer--drop-down-section">
         <h1 class="mdl-mega-footer--heading">Categories</h1>
         <ul class="mdl-mega-footer--link-list">
-                <li><a href="https://blog.ircpuzzles.org/category/updates/">updates</a></li>
-                <li><a href="https://blog.ircpuzzles.org/category/solutions/">solutions</a></li>
-                <li><a href="https://blog.ircpuzzles.org/category/rankings/">rankings</a></li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/updates/" itemprop="url"
+                       rel="bookmark">
+                        updates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/solutions/" itemprop="url"
+                       rel="bookmark">
+                        solutions
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/rankings/" itemprop="url"
+                       rel="bookmark">
+                        rankings
+                    </a>
+                </li>
         </ul>
     </div>
     <div class="mdl-mega-footer--drop-down-section">
         <h1 class="mdl-mega-footer--heading">Social</h1>
         <ul class="mdl-mega-footer--link-list">
-                <li><a href="https://twitter.com/ircpuzzles"><i class="fa fa-twitter aria-hidden="true"></i> Twitter</a></li>
-                <li><a href="https://github.com/ircpuzzles"><i class="fa fa-github aria-hidden="true"></i> Github</a></li>
+                <li>
+                    <a href="https://twitter.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-twitter aria-hidden="true"></i> Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-github aria-hidden="true"></i> Github
+                    </a>
+                </li>
         </ul>
     </div>
     <div class="mdl-mega-footer--drop-down-section">
         <h1 class="mdl-mega-footer--heading">Links</h1>
         <ul class="mdl-mega-footer--link-list">
-                <li><a href="https://freenode.net/">freenode</a></li>
+                <li>
+                    <a href="https://freenode.net/" itemprop="url" rel="bookmark">
+                        freenode
+                    </a>
+                </li>
         </ul>
     </div>
-</div>                <div class="mdl-mega-footer--bottom-section">
-                    <div class="mdl-logo">
-                        <a href="https://blog.ircpuzzles.org">#ircpuzzles</a>
-                    </div>
-                    <ul class="eevee-footer mdl-mega-footer--link-list">
-                        <li>
-                            Powered by love, rainbow sparkles &amp; the
-                            <a href="https://kura.io/eevee/">eevee</a> theme.
-                        </li>
-                    </ul>
+</div>            <div class="mdl-mega-footer--bottom-section">
+                <div class="mdl-logo">
+                    <a href="https://blog.ircpuzzles.org" rel="bookmark" itemprop="url"
+                       title="#ircpuzzles">
+                        #ircpuzzles
+                    </a>
                 </div>
-            </footer>
-        </main>
+                    <ul class="eevee-footer mdl-mega-footer--link-list">
+                            <li>Powered by love &amp; rainbow sparkles.</li>
+                            <li><a href="https://kura.io/eevee/" title="Eevee">Eevee</a> theme by <a href="https://kura.io/" title="kura.io">kura.io</a></li>
+                    </ul>
+            </div>
+        </footer>
     </div>
-</body>
-<link rel="stylesheet"
-      href="//code.getmdl.io/1.1.3/material.teal-pink.min.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/052bce25270c913a16c504a7a464ce46_font-awesome.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/6e1f8fe6d5da0b5867c240e6724cbea7_material-icons.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/c8270a239b74401c4f50b6736214a6f0_roboto.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/2106adbed378a29b80ee724153beae5d_pygments.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/b9ca9e7f41b89e3fa00f45808f76c752_eevee.css" />
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-51072782-1']);
-        _gaq.push(['_trackPageview']);
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
+    <link rel="stylesheet"
+          href="//code.getmdl.io/1.1.3/material.teal-pink.min.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/e2189c25a87c7d26d26437c629a0e8f8_fonts.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/052bce25270c913a16c504a7a464ce46_font-awesome.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/6e1f8fe6d5da0b5867c240e6724cbea7_material-icons.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/2106adbed378a29b80ee724153beae5d_pygments.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/b9ca9e7f41b89e3fa00f45808f76c752_eevee.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/a4bd3799a89f3bf319a983d23ea36e04_custom.css">
+    <script async src="https://blog.ircpuzzles.org/theme/webassets-external/dbb2bff29449134e95edb598e08cd9d5_material.js">
     </script>
+    <script>
+        var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-51072782-1"]),_gaq.push(["_trackPageview"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();
+    </script>
+</body>
 </html>

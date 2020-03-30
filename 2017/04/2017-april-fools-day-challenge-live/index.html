@@ -1,177 +1,300 @@
 <!DOCTYPE html>
+<!--
+    (The MIT License)
+
+    Copyright (c) 2016 Kura
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the 'Software'), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
+<head id="head">
+    <meta charset="utf-8">
     <meta name="viewport"
-          content="width=device-width,initial-scale=1,maximum-scale=1" />
-<link rel="dns-prefetch" href="https://blog.ircpuzzles.org" />
-<link rel="dns-prefetch" href="//code.getmdl.io" />
-    <link rel="dns-prefetch" href="//disqus.com" />
-    <link rel="dns-prefetch" href="//a.disquscdn.com" />
-    <link rel="dns-prefetch" href="//ircpuzzles.disqus.com" />
-    <link rel="dns-prefetch" href="//glitter-services.disqus.com" />
-    <link href="https://blog.ircpuzzles.org/feeds/all.rss.xml" type="application/atom+xml"
-          rel="alternate" title="#ircpuzzles" />
-    <meta property="og:site_name" content="#ircpuzzles" />
-    <meta property="og:type" content="article" />
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="alternate" href="https://blog.ircpuzzles.org" hreflang="en" />
+<link rel="dns-prefetch" href="https://blog.ircpuzzles.org">
+<link rel="dns-prefetch" href="//code.getmdl.io">
+    <link rel="dns-prefetch" href="//disqus.com">
+    <link rel="dns-prefetch" href="//a.disquscdn.com">
+    <link rel="dns-prefetch" href="//ircpuzzles.disqus.com">
+    <link rel="dns-prefetch" href="//glitter-services.disqus.com">
+    <link rel="dns-prefetch" href="//google-analytics.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link href="https://blog.ircpuzzles.org/feeds/all.rss.xml" type="application/rss+xml"
+          rel="alternate" title="#ircpuzzles">
+    <meta property="og:site_name" content="#ircpuzzles">
+    <meta property="og:type" content="article">
         <meta property="og:title"
-              content="2017 April Fool\&#39;s Day Challenge Is Now LIVE" />
+              content="2017 April Fool\&#39;s Day Challenge Is Now LIVE">
         <meta property="og:url"
-              content="https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/" />
+              content="https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/">
         <meta property="og:description"
-              content="We are happy to present the 2017 IRCPuzzles April Fool&#39;s Day Challenge on freenode! It has begun! The first clue is: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY= Please join us in #ircpuzzles on freenode." />
-        <meta property="twitter:site" content="@ircpuzzles" />
+              content="We are happy to present the 2017 IRCPuzzles April Fool&#39;s Day Challenge on freenode! It has begun! The first clue is: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY= Please join us in #ircpuzzles on freenode.">
+        <meta property="twitter:site" content="@ircpuzzles">
         <meta property="twitter:title"
-              content="2017 April Fool\&#39;s Day Challenge Is Now LIVE" />
+              content="2017 April Fool\&#39;s Day Challenge Is Now LIVE">
         <meta property="twitter:url"
-              content="https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/" />
+              content="https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/">
         <meta property="twitter:description"
-              content="We are happy to present the 2017 IRCPuzzles April Fool&#39;s Day Challenge on freenode! It has begun! The first clue is: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY= Please join us in #ircpuzzles on freenode." />
-            <meta property="twitter:card" content="summary" />
-    <link rel="shortcut icon" href="https://blog.ircpuzzles.org/favicon.ico" />
+              content="We are happy to present the 2017 IRCPuzzles April Fool&#39;s Day Challenge on freenode! It has begun! The first clue is: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY= Please join us in #ircpuzzles on freenode.">
+            <meta property="twitter:card" content="summary">
+    <link rel="shortcut icon" href="https://blog.ircpuzzles.org/favicon.ico">
     <title>2017 April Fool\'s Day Challenge Is Now LIVE</title>
 </head>
 <body>
-    <div class="eevee-layout mdl-layout mdl-layout--fixed-header
-                mdl-js-layout mdl-color--grey-100">
-       <header class="eevee-header mdl-layout__header
-                      mdl-layout__header--scroll mdl-color--grey-100
-                      mdl-color-text--grey-800">
-           <div class="mdl-layout__header-row">
-                <span class="eevee-logo mdl-color-text--accent
-                             mdl-layout-title">
-                   <h3><a href="https://blog.ircpuzzles.org">#ircpuzzles</a></h3>
+    <div class="eevee-layout mdl-layout mdl-js-layout mdl-color--grey-50">
+        <header class="eevee-header mdl-color--grey-50 mdl-color-text--grey-800"
+                itemscope itemtype="http://schema.org/WPHeader">
+            <div class="mdl-layout__header-row" id="top">
+                <div aria-expanded="false" role="button" tabindex="0"
+                     class="mdl-layout__drawer-button mdl-color-text--accent eevee-mobile-button mdl-layout--small-screen-only">
+                    <i class="material-icons">&#xE5D2;</i>
+                </div>
+                <span class="eevee-logo mdl-color-text--accent mdl-layout-title">
+                    <h2>
+                        <a href="https://blog.ircpuzzles.org" rel="bookmark"
+                           title="#ircpuzzles">
+                            #ircpuzzles
+                        </a>
+                    </h2>
                 </span>
-                <div class="mdl-layout-spacer"></div>
-<nav class="eevee-nav mdl-navigation mdl-layout--large-screen-only">
-</nav>            </div>
+                <div class="mdl-layout-spacer" role="presentation"></div>
+                <nav class="eevee-nav mdl-navigation mdl-layout--large-screen-only"
+                     itemscope itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="https://blog.ircpuzzles.org/feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+                </nav>
+            </div>
         </header>
-        <div class="eevee-ribbon mdl-color--primary-dark"></div>
+        <div class="eevee-mobile-header mdl-layout__drawer mdl-color--white"
+             aria-hidden="true">
+            <span class="mdl-layout-title">
+                <h2 class="eevee-mobile-logo mdl-color-text--accent">
+                    #ircpuzzles
+                </h2>
+            </span>
+            <div class="mdl-navigation mdl-color--white">
+                <nav class="eevee-nav mdl-navigation" itemscope
+                     itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+                    <a class="mdl-color-text--accent mdl-navigation__link"
+                       href="https://blog.ircpuzzles.org" itemprop="url" rel="bookmark">
+                        Home
+                    </a>
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="https://blog.ircpuzzles.org/feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="eevee-ribbon mdl-color--primary-dark" role="presentation">
+        </div>
         <main class="eevee-main mdl-layout__content">
             <div class="eevee-container mdl-grid">
-                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet
-                            mdl-cell--hide-phone"></div>
-                <div class="eevee-content mdl-color--white mdl-shadow--4dp
-                            mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-    <article>
-        <div class="eevee-padding">
-            <div class="eevee-meta mdl-color-text--grey-500">
-                <div>2017-04-01 12:00</div>
-                <div class="eevee-spacer"></div>
-                <div class="meta__share">
-    <div>
-        <a href="https://twitter.com/share?text=2017 April Fool\'s Day Challenge Is Now LIVE on"
-           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">
-            <i class="fa fa-twitter mdl-color-text--primary"
-               aria-hidden="true"></i>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/"
-           onclick="window.open(this.href, 'facebook-share', 'width=580,height=296'); return false;">
-            <i class="fa fa-facebook mdl-color-text--primary" aria-hidden="true"></i>
-       </a>
-    </div>
-    <div>
-        <a href="https://plus.google.com/share?url=https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/"
-           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-            <i class="fa fa-google mdl-color-text--primary"
-               aria-hidden="true"></i>
-        </a>
-    </div>
+                <div role="presentation"
+                     class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
                 </div>
+                <div class="eevee-content mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--8-col"
+                     aria-label="Main content">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+<meta itemprop="accessibilityControl" content="fullKeyboardControl">
+<meta itemprop="accessibilityControl" content="fullMouseControl">
+<meta itemprop="accessibilityControl" content="bookmarks">
+<meta itemprop="accessibilityControl" content="captions">
+<meta itemprop="accessibilityControl" content="alternativeText">
+<meta itemprop="accessibilityControl" content="index">
+<meta itemprop="accessibilityControl" content="readingOrder">
+<meta itemprop="accessibilityControl" content="structuralNavigation">
+<meta itemprop="accessibilityControl" content="tableOfContents">
+<meta itemprop="accessibilityHazard" content="noFlashingHazard">
+<meta itemprop="accessibilityHazard" content="noMotionSimulationHazard">
+<meta itemprop="accessibilityHazard" content="noSoundHazard">
+<meta itemprop="accessibilityAPI" content="ARIA">
+    <div itemprop="author" itemscope
+         itemtype="https://schema.org/Person" role="presentation">
+        <a href="https://blog.ircpuzzles.org/author/yano.html" class="hidden"
+           itemprop="url" role="presentation">
+            <span class="hidden" itemprop="name" role="presentation">
+                yano
+            </span>
+        </a>
+    </div>
+        <meta itemprop="keywords" content="updates">
+    <div class="eevee-meta eevee-share">
+        <div class="mdl-layout-spacer"></div>
+        <div>
+            <ul class="social-share mdl-navigation">
+                <li class="social-share__link social-share__link--twitter">
+                    <a href="https://twitter.com/intent/tweet?text=2017%20April%20Fool%5C%27s%20Day%20Challenge%20Is%20Now%20LIVE&amp;url=https%3A//blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/&amp;related=ircpuzzles"
+                       title="Share '2017 April Fool\'s Day Challenge Is Now LIVE' on Twitter"
+                       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="social-share__link social-share__link--facebook">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/"
+                       title="Share '2017 April Fool\'s Day Challenge Is Now LIVE' on Facebook"
+                       onclick="window.open(this.href, 'facebook-share', 'width=580,height=296'); return false;">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="social-share__link social-share__link--google-plus">
+                    <a href="https://plus.google.com/share?url=https%3A//blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/"
+                       title="Share '2017 April Fool\'s Day Challenge Is Now LIVE' on Google+"
+                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                        <i class="fa fa-google" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="social-share__link social-share__link--email">
+                    <a href="mailto:?subject=2017%20April%20Fool%5C%27s%20Day%20Challenge%20Is%20Now%20LIVE&amp;body=2017%20April%20Fool%5C%27s%20Day%20Challenge%20Is%20Now%20LIVE%20-%20https%3A//blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/%0A%0AWe%20are%20happy%20to%20present%20the%202017%20IRCPuzzles%20April%20Fool%27s%20Day%20Challenge%20on%20freenode%21%20It%20has%20begun%21%20The%20first%20clue%20is%3A%20IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY%3D%20Please%20join%20us%20in%20%23ircpuzzles%20on%20freenode.' via email">
+                        <i class="material-icons" aria-hidden="true">&#xE0E1;</i>
+                    </a>
+                </li>
+                        <li class="social-share__link social-share__link--comment">
+                            <a href="#article-comments" title="Discuss '2017 April Fool\'s Day Challenge Is Now LIVE'">
+                             <i class="material-icons" aria-hidden="true">&#xE0B9;</i>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+        <div class="eevee-article">
+            <div class="eevee-meta mdl-color-text--grey-500">
+                <time datetime="2017-04-01T12:00:00+00:00"
+                      itemprop="datePublished">
+                    2017-04-01 12:00
+                </time>
             </div>
-            <h2>
+            <h1 itemprop="name">
                 <a href="https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/" rel="bookmark"
-                   title="Permalink to 2017 April Fool\'s Day Challenge Is Now LIVE">
+                   title="Permalink to '2017 April Fool\'s Day Challenge Is Now LIVE'"
+                   itemprop="url">
                     2017 April Fool\'s Day Challenge Is Now LIVE
                 </a>
-            </h2>
-            <section class="post-content">
+            </h1>
+            <section itemprop="articleBody" class="article-content">
                 <p>We are happy to present the 2017 IRCPuzzles April Fool's Day Challenge on <a href="https://freenode.net/">freenode</a>! It has begun!</p>
 <p>The first clue is: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY=</p>
 <p>Please join us in #ircpuzzles on freenode.</p>
             </section>
         </div>
-        <div class="eevee-comment">    <section>
-        <h2>Discuss</h2>
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-        var disqus_shortname = 'ircpuzzles';
-        var disqus_identifier = '/2017/04/2017-april-fools-day-challenge-live/';
-        var disqus_url = 'https://blog.ircpuzzles.org/2017/04/2017-april-fools-day-challenge-live/';
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-        </script>
-        <noscript>
-            Please enable JavaScript to view the
-            <a href="http://disqus.com/?ref_noscript">comments powered by
-            Disqus.</a>
-        </noscript>
-    </section>
-</div>
     </article>
                 </div>
             </div>
-            <footer class="mdl-mega-footer">
-<div class="mdl-mega-footer--middle-section">
+        </main>
+        <footer class="mdl-mega-footer" itemscope
+                itemtype="http://schema.org/SiteNavigationElement">
+            <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--drop-down-section">
+                    <ul class="mdl-mega-footer--link-list">
+                        <li>
+                            <a href="#top" itemprop="url"
+                               title="Back to the top of the page">
+                                Back to the top of the page
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<div class="mdl-mega-footer--middle-section" itemscope
+     itemtype="http://schema.org/SiteNavigationElement"
+     aria-label="Footer navigation">
     <div class="mdl-mega-footer--drop-down-section">
         <h1 class="mdl-mega-footer--heading">Categories</h1>
         <ul class="mdl-mega-footer--link-list">
-                <li><a href="https://blog.ircpuzzles.org/category/updates/">updates</a></li>
-                <li><a href="https://blog.ircpuzzles.org/category/solutions/">solutions</a></li>
-                <li><a href="https://blog.ircpuzzles.org/category/rankings/">rankings</a></li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/updates/" itemprop="url"
+                       rel="bookmark">
+                        updates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/solutions/" itemprop="url"
+                       rel="bookmark">
+                        solutions
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/rankings/" itemprop="url"
+                       rel="bookmark">
+                        rankings
+                    </a>
+                </li>
         </ul>
     </div>
     <div class="mdl-mega-footer--drop-down-section">
         <h1 class="mdl-mega-footer--heading">Social</h1>
         <ul class="mdl-mega-footer--link-list">
-                <li><a href="https://twitter.com/ircpuzzles"><i class="fa fa-twitter aria-hidden="true"></i> Twitter</a></li>
-                <li><a href="https://github.com/ircpuzzles"><i class="fa fa-github aria-hidden="true"></i> Github</a></li>
+                <li>
+                    <a href="https://twitter.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-twitter aria-hidden="true"></i> Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-github aria-hidden="true"></i> Github
+                    </a>
+                </li>
         </ul>
     </div>
     <div class="mdl-mega-footer--drop-down-section">
         <h1 class="mdl-mega-footer--heading">Links</h1>
         <ul class="mdl-mega-footer--link-list">
-                <li><a href="https://freenode.net/">freenode</a></li>
+                <li>
+                    <a href="https://freenode.net/" itemprop="url" rel="bookmark">
+                        freenode
+                    </a>
+                </li>
         </ul>
     </div>
-</div>                <div class="mdl-mega-footer--bottom-section">
-                    <div class="mdl-logo">
-                        <a href="https://blog.ircpuzzles.org">#ircpuzzles</a>
-                    </div>
-                    <ul class="eevee-footer mdl-mega-footer--link-list">
-                        <li>
-                            Powered by love, rainbow sparkles &amp; the
-                            <a href="https://kura.io/eevee/">eevee</a> theme.
-                        </li>
-                    </ul>
+</div>            <div class="mdl-mega-footer--bottom-section">
+                <div class="mdl-logo">
+                    <a href="https://blog.ircpuzzles.org" rel="bookmark" itemprop="url"
+                       title="#ircpuzzles">
+                        #ircpuzzles
+                    </a>
                 </div>
-            </footer>
-        </main>
+                    <ul class="eevee-footer mdl-mega-footer--link-list">
+                            <li>Powered by love &amp; rainbow sparkles.</li>
+                            <li><a href="https://kura.io/eevee/" title="Eevee">Eevee</a> theme by <a href="https://kura.io/" title="kura.io">kura.io</a></li>
+                    </ul>
+            </div>
+        </footer>
     </div>
-</body>
-<link rel="stylesheet"
-      href="//code.getmdl.io/1.1.3/material.teal-pink.min.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/052bce25270c913a16c504a7a464ce46_font-awesome.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/6e1f8fe6d5da0b5867c240e6724cbea7_material-icons.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/c8270a239b74401c4f50b6736214a6f0_roboto.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/2106adbed378a29b80ee724153beae5d_pygments.css" />
-    <link rel="stylesheet" href="/theme/webassets-external/b9ca9e7f41b89e3fa00f45808f76c752_eevee.css" />
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-51072782-1']);
-        _gaq.push(['_trackPageview']);
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
+    <link rel="stylesheet"
+          href="//code.getmdl.io/1.1.3/material.teal-pink.min.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/e2189c25a87c7d26d26437c629a0e8f8_fonts.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/052bce25270c913a16c504a7a464ce46_font-awesome.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/6e1f8fe6d5da0b5867c240e6724cbea7_material-icons.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/2106adbed378a29b80ee724153beae5d_pygments.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/b9ca9e7f41b89e3fa00f45808f76c752_eevee.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/a4bd3799a89f3bf319a983d23ea36e04_custom.css">
+    <script async src="https://blog.ircpuzzles.org/theme/webassets-external/dbb2bff29449134e95edb598e08cd9d5_material.js">
     </script>
+    <script>
+        var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-51072782-1"]),_gaq.push(["_trackPageview"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();
+    </script>
+</body>
 </html>
