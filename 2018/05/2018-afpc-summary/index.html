@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<!--
+    (The MIT License)
+
+    Copyright (c) 2016 Kura
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the 'Software'), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+<html lang="en">
+<head id="head">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="alternate" href="https://blog.ircpuzzles.org" hreflang="en" />
+<link rel="dns-prefetch" href="https://blog.ircpuzzles.org">
+<link rel="dns-prefetch" href="//code.getmdl.io">
+    <link rel="dns-prefetch" href="//disqus.com">
+    <link rel="dns-prefetch" href="//a.disquscdn.com">
+    <link rel="dns-prefetch" href="//ircpuzzles.disqus.com">
+    <link rel="dns-prefetch" href="//glitter-services.disqus.com">
+    <link rel="dns-prefetch" href="//google-analytics.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link href="https://blog.ircpuzzles.org/feeds/all.rss.xml" type="application/rss+xml"
+          rel="alternate" title="#ircpuzzles">
+    <meta property="og:site_name" content="#ircpuzzles">
+    <meta property="og:type" content="article">
+        <meta property="og:title"
+              content="2018 April Fool&#39;s Day Summary &amp; Solutions">
+        <meta property="og:url"
+              content="https://blog.ircpuzzles.org/2018/05/2018-afpc-summary/">
+        <meta property="og:description"
+              content="Level 0 (vehk) Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw== As per ircpuzzles tradition, the first puzzle is simply a base64-encoded string. This particular one decodes to: ######AFPC2018-VideoGames. Level 1 (ybden) Clues: Join ######locked. this is the key. This level introduces channel keys. The solution was to join ######locked with the key this. Level 2 …">
+        <meta property="twitter:site" content="@ircpuzzles">
+        <meta property="twitter:title"
+              content="2018 April Fool&#39;s Day Summary &amp; Solutions">
+        <meta property="twitter:url"
+              content="https://blog.ircpuzzles.org/2018/05/2018-afpc-summary/">
+        <meta property="twitter:description"
+              content="Level 0 (vehk) Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw== As per ircpuzzles tradition, the first puzzle is simply a base64-encoded string. This particular one decodes to: ######AFPC2018-VideoGames. Level 1 (ybden) Clues: Join ######locked. this is the key. This level introduces channel keys. The solution was to join ######locked with the key this. Level 2 …">
+            <meta property="twitter:card" content="summary">
+    <link rel="shortcut icon" href="https://blog.ircpuzzles.org/favicon.ico">
+    <title>2018 April Fool's Day Summary & Solutions</title>
+</head>
+<body>
+    <div class="eevee-layout mdl-layout mdl-js-layout mdl-color--grey-50">
+        <header class="eevee-header mdl-color--grey-50 mdl-color-text--grey-800"
+                itemscope itemtype="http://schema.org/WPHeader">
+            <div class="mdl-layout__header-row" id="top">
+                <div aria-expanded="false" role="button" tabindex="0"
+                     class="mdl-layout__drawer-button mdl-color-text--accent eevee-mobile-button mdl-layout--small-screen-only">
+                    <i class="material-icons">&#xE5D2;</i>
+                </div>
+                <span class="eevee-logo mdl-color-text--accent mdl-layout-title">
+                    <h2>
+                        <a href="https://blog.ircpuzzles.org" rel="bookmark"
+                           title="#ircpuzzles">
+                            #ircpuzzles
+                        </a>
+                    </h2>
+                </span>
+                <div class="mdl-layout-spacer" role="presentation"></div>
+                <nav class="eevee-nav mdl-navigation mdl-layout--large-screen-only"
+                     itemscope itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/archives.html" itemprop="url"
+           rel="bookmark">
+            Archives
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/" itemprop="url"
+           rel="bookmark">
+            Home
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/rules.html" itemprop="url"
+           rel="bookmark">
+            Rules
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/staff.html" itemprop="url"
+           rel="bookmark">
+            Staff
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/tips.html" itemprop="url"
+           rel="bookmark">
+            Tips & Guidelines
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/category/updates/" itemprop="url"
+           rel="bookmark">
+            updates
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/category/solutions/" itemprop="url"
+           rel="bookmark">
+            solutions
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/category/rankings/" itemprop="url"
+           rel="bookmark">
+            rankings
+        </a>
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="https://blog.ircpuzzles.org/feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+    <div class="eevee-search-menu mdl-textfield">
+        <label class="mdl-color-text--accent mdl-button mdl-button--icon"
+               for="tipue_search_input">
+            <i class="material-icons">&#xE8B6;</i>
+        </label>
+        <div>
+            <form action="https://blog.ircpuzzles.org/search.html">
+            <input class="eevee-search-box mdl-textfield__input"
+                   type="text" name="q" id="tipue_search_input"
+                   autocomplete="off">
+            </form>
+        </div>
+    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="eevee-mobile-header mdl-layout__drawer mdl-color--white"
+             aria-hidden="true">
+            <span class="mdl-layout-title">
+                <h2 class="eevee-mobile-logo mdl-color-text--accent">
+                    #ircpuzzles
+                </h2>
+            </span>
+            <div class="mdl-navigation mdl-color--white">
+                <nav class="eevee-nav mdl-navigation" itemscope
+                     itemtype="http://schema.org/SiteNavigationElement"
+                     aria-label="Header navigation">
+                    <a class="mdl-color-text--accent mdl-navigation__link"
+                       href="https://blog.ircpuzzles.org" itemprop="url" rel="bookmark">
+                        Home
+                    </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/archives.html" itemprop="url"
+           rel="bookmark">
+            Archives
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/" itemprop="url"
+           rel="bookmark">
+            Home
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/rules.html" itemprop="url"
+           rel="bookmark">
+            Rules
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/staff.html" itemprop="url"
+           rel="bookmark">
+            Staff
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/tips.html" itemprop="url"
+           rel="bookmark">
+            Tips & Guidelines
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/category/updates/" itemprop="url"
+           rel="bookmark">
+            updates
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/category/solutions/" itemprop="url"
+           rel="bookmark">
+            solutions
+        </a>
+        <a class="mdl-color-text--accent mdl-navigation__link"
+           href="https://blog.ircpuzzles.org/category/rankings/" itemprop="url"
+           rel="bookmark">
+            rankings
+        </a>
+    <a class="mdl-color-text--accent mdl-navigation__link"
+       href="https://blog.ircpuzzles.org/feeds/all.rss.xml"
+       title="RSS" itemprop="url">
+        RSS
+    </a>
+    <div class="eevee-search-menu mdl-textfield">
+        <label class="mdl-color-text--accent mdl-button mdl-button--icon"
+               for="tipue_search_input">
+            <i class="material-icons">&#xE8B6;</i>
+        </label>
+        <div>
+            <form action="https://blog.ircpuzzles.org/search.html">
+            <input class="eevee-search-box mdl-textfield__input"
+                   type="text" name="q" id="tipue_search_input"
+                   autocomplete="off">
+            </form>
+        </div>
+    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="eevee-ribbon mdl-color--primary-dark" role="presentation">
+        </div>
+        <main class="eevee-main mdl-layout__content">
+            <div class="eevee-container mdl-grid">
+                <div role="presentation"
+                     class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+                </div>
+                <div class="eevee-content mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--8-col"
+                     aria-label="Main content">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+<meta itemprop="accessibilityControl" content="fullKeyboardControl">
+<meta itemprop="accessibilityControl" content="fullMouseControl">
+<meta itemprop="accessibilityControl" content="bookmarks">
+<meta itemprop="accessibilityControl" content="captions">
+<meta itemprop="accessibilityControl" content="alternativeText">
+<meta itemprop="accessibilityControl" content="index">
+<meta itemprop="accessibilityControl" content="readingOrder">
+<meta itemprop="accessibilityControl" content="structuralNavigation">
+<meta itemprop="accessibilityControl" content="tableOfContents">
+<meta itemprop="accessibilityHazard" content="noFlashingHazard">
+<meta itemprop="accessibilityHazard" content="noMotionSimulationHazard">
+<meta itemprop="accessibilityHazard" content="noSoundHazard">
+<meta itemprop="accessibilityAPI" content="ARIA">
+    <div itemprop="author" itemscope
+         itemtype="https://schema.org/Person" role="presentation">
+        <a href="https://blog.ircpuzzles.org/author/vehk/" class="hidden"
+           itemprop="url" role="presentation">
+            <span class="hidden" itemprop="name" role="presentation">
+                vehk
+            </span>
+        </a>
+    </div>
+        <meta itemprop="keywords" content="solutions">
+    <div class="eevee-meta eevee-share">
+        <div class="mdl-layout-spacer"></div>
+        <div>
+            <ul class="social-share mdl-navigation">
+                <li class="social-share__link social-share__link--twitter">
+                    <a href="https://twitter.com/intent/tweet?text=2018%20April%20Fool%27s%20Day%20Summary%20%26%20Solutions&amp;url=https%3A//blog.ircpuzzles.org/2018/05/2018-afpc-summary/&amp;related=ircpuzzles"
+                       title="Share '2018 April Fool's Day Summary & Solutions' on Twitter"
+                       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235'); return false;">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="social-share__link social-share__link--facebook">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//blog.ircpuzzles.org/2018/05/2018-afpc-summary/"
+                       title="Share '2018 April Fool's Day Summary & Solutions' on Facebook"
+                       onclick="window.open(this.href, 'facebook-share', 'width=580,height=296'); return false;">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="social-share__link social-share__link--email">
+                    <a href="mailto:?subject=2018%20April%20Fool%27s%20Day%20Summary%20%26%20Solutions&amp;body=2018%20April%20Fool%27s%20Day%20Summary%20%26%20Solutions%20-%20https%3A//blog.ircpuzzles.org/2018/05/2018-afpc-summary/%0A%0ALevel%200%20%28vehk%29%20Clues%3A%20IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw%3D%3D%20As%20per%20ircpuzzles%20tradition%2C%20the%20first%20puzzle%20is%20simply%20a%20base64-encoded%20string.%20This%20particular%20one%20decodes%20to%3A%20%23%23%23%23%23%23AFPC2018-VideoGames.%20Level%201%20%28ybden%29%20Clues%3A%20Join%20%23%23%23%23%23%23locked.%20this%20is%20the%20key.%20This%20level%20introduces%20channel%20keys.%20The%20solution%20was%20to%20join%20%23%23%23%23%23%23locked%20with%20the%20key%20this.%20Level%202%20%E2%80%A6' via email">
+                        <i class="material-icons" aria-hidden="true">&#xE0E1;</i>
+                    </a>
+                </li>
+                        <li class="social-share__link social-share__link--comment">
+                            <a href="#article-comments" title="Discuss '2018 April Fool's Day Summary & Solutions'">
+                             <i class="material-icons" aria-hidden="true">&#xE0B9;</i>
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+        <div class="eevee-article">
+            <div class="eevee-meta mdl-color-text--grey-500">
+                <time datetime="2018-05-06T16:20:00+00:00"
+                      itemprop="datePublished">
+                    2018-05-06 16:20
+                </time>
+            </div>
+            <h1 itemprop="name">
+                <a href="https://blog.ircpuzzles.org/2018/05/2018-afpc-summary/" rel="bookmark"
+                   title="Permalink to '2018 April Fool's Day Summary & Solutions'"
+                   itemprop="url">
+                    2018 April Fool's Day Summary & Solutions
+                </a>
+            </h1>
+            <section itemprop="articleBody" class="article-content">
+                <h2>Level 0 (vehk)</h2>
+<h3>Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw==</h3>
+<p>As per ircpuzzles tradition, the first puzzle is simply a base64-encoded
+string. This particular one decodes to: <code>######AFPC2018-VideoGames</code>.</p>
+<h2>Level 1 (ybden)</h2>
+<h3>Clues: Join ######locked. this is the key.</h3>
+<p>This level introduces channel keys. The solution was to join <code>######locked</code>
+with the key <code>this</code>.</p>
+<h2>Level 2 (vehk)</h2>
+<h3>Clues: It's dangerous to go alone.</h3>
+<p>As established in the entry channel, this year's theme was video
+games. The line from the topic is a reference to a very early screen
+in the original <em>Legend of Zelda</em> game. The complete line from the
+game includes <code>Take this.</code> at the end. The solution channel was
+<code>######takethis</code>.</p>
+<h2>Level 3 (vehk)</h2>
+<h3>Clues: It is cvgpu oynpx. | Lbh ner yvxryl gb or rngra ol n ...</h3>
+<p>Originally, this level only contained the first clue - part of a line in plain
+sight, and part of it obscured by rot13. The full line decodes to <code>It is pitch
+black.</code>, a reference to Infocom's text adventure title <em>Zork</em>.</p>
+<p>One of the mechanics in the game was pitch black rooms that needed a lamp to
+navigate. Should the player venture forth without one, they would be eaten by
+the game's iconic monster - a grue.</p>
+<p>Every time the player enters a very dark area without a light source,
+the game warns them about this gruesome fate: <code>It is pitch black. You
+are likely to be eaten by a grue</code>. The second hint is exactly the rest of this
+reference with <code>grue</code> replaced by <code>...</code></p>
+<p>Here, the solution channel is therefore <code>######grue</code>.</p>
+<h2>Level 4 (vehk/ybden)</h2>
+<h3>Clues: This company released a console which shares its name with an epic.</h3>
+<p>This level was a more straightforward fact-hunt rather than decoding clues and
+recognizing or searching for a given reference. The epic in question is
+Homer's <em>Odyssey</em> - a major Greek poem and sequel to the Iliad.</p>
+<p>The company in question is <em>Magnavox</em>, who in 1972 released the first home video
+game console, the <em>Magnavox Odyssey</em>.</p>
+<p>The next level: <code>######magnavox</code>.</p>
+<h2>Level 5 (vehk)</h2>
+<h3>Clues: eHl6enkK | response | what you did in the first one</h3>
+<p>This level originally contained only the first clue, which (like the
+first level) is encoded with base64. It decodes to <code>xyzzy</code>.</p>
+<p><code>xyzzy</code> is a command in <em>Colossal Cave Adventure</em>, a very early text
+adventure game. Upon being given this command in the right room, the
+game would teleport you across the map to another room. Used anywhere
+else, and the game would tell you <code>Nothing happens.</code></p>
+<p>The second clue here makes clear that we were looking for a response to
+the <code>xyzzy</code> command. Thus, the next level was: <code>######nothinghappens</code></p>
+<h2>Level 6 (Fuchs)</h2>
+<h3>Clues: Interlude: A teenage group of nine in the late nineties, going all 3279272253. It really is, isn't it? | https://is.gd/lDrqzw</h3>
+<p>The Teenage Group of 9 is a hint towards T9, a system to write texts
+faster on a old fashioned phone keyboard, before touchscreens were
+a thing. The second hint is an article about a person using an old
+fashioned Nokia Phone with a phone keyboard, which is another hint
+towards that.</p>
+<p>The result is <code>######easyascake</code> which you can get by seeing what
+potential words 3279 27 2253 would generate with T9 - the following
+“It really is, isn’t it?” helping to confirm you got the right
+one.</p>
+<h2>Level 7 (atk)</h2>
+<h3>Clues: https://is.gd/E9GSlr</h3>
+<p>This level uses a <a href="https://en.wikipedia.org/wiki/Nonogram">Nonogram</a>
+puzzle to hide a sprite from the 1978 arcade game <em>Space Invaders</em>.</p>
+<p>The next level: <code>######spaceinvaders</code></p>
+<h2>Level 8 (vehk/ybden)</h2>
+<h3>Clues: C’FGC | Bobbin</h3>
+<p>This one was a bit trickier. <code>C’FGC</code> is a draft from LucasArts'
+point-and-click adventure <em>LOOM</em>. A web search for <code>C’FGC</code> together
+with <code>video games</code> was supposed to put players on the right track. Later in
+the game, however, another more obvious clue was added. Bobbin is the name of
+the protagonist in <em>LOOM</em>.</p>
+<p>In the game, the <code>C’FGC</code> draft is called <em>Transcendence</em>, and therefore the
+next level is <code>######transcendence</code>.</p>
+<h2>Level 9 (ybden/vehk)</h2>
+<h3>Clues: Difficult Farflung Islandwhistler | URL | gfycat</h3>
+<p>This level's topic underwent several drastic changes in the course of
+the competition. The one you see here is the final one. Originally, the
+topic only consisted of the first clue.</p>
+<p>This puzzle relied on players having seen the memorable
+URL slugs certain websites use for their content. In this
+particular case, the clues linked to a gif on <em>gfycat</em>:
+https://gfycat.com/DifficultFarflungIslandwhistler</p>
+<p>The last step was to identify the move portrayed in the gif, which was Ryu's
+<em>Hadouken</em>. This makes the next level: <code>######hadouken</code>.</p>
+<h2>Level 10 (vehk)</h2>
+<h3>Clues: When danger reared its ugly head / He bravely turned his tail and fled | life | 35°05′14″N 92°27′12″W</h3>
+<p>Originally, this level only included the first two clues. The first one
+is an excerpt from one of the songs in <em>Monty Python and the Holy
+Grail</em>. In the film, Sir Robin is first being hailed by his entourage as
+being exceptionally brave, until he encounters a three-headed knight and
+runs away. Following Robin still, the minstrel then derides him, singing
+that he <code>bravely chickened out</code>.</p>
+<p>The second one, keeping in mind the video games theme, alludes to
+<em>Conway's Game of Life</em> (with the third and final clue confirming this).</p>
+<p><a href="http://www.conwaylife.com/wiki/Sir_Robin">Sir Robin</a> is a spaceship in
+<em>Conway's Game of Life</em> found very recently - and the first elementary
+knightship encountered.</p>
+<p>The solution was the systematic name of Sir Robin, <code>######282P6H2V1</code></p>
+<h2>Level 11 (Fuchs)</h2>
+<h3>Clues: In a game with a helpful Error, a bug by his name gave you something to show to …  | If all else fails, use fire</h3>
+<p>The game we are looking for is <a href="https://en.wikipedia.org/wiki/Zelda_II:_The_Adventure_of_Link">The Legend
+of Zelda II: The Adventure of Link for the
+NES</a>,
+a childhood favourite of mine. The game had two oddly named
+characters: Error and Bagu, the latter coming from bug (as in software
+bug).</p>
+<p>Said Bagu told you to, <code>show my note to river man</code> (sic!), which was
+thus the answer, <code>######riverman</code>.</p>
+<p><img alt="Bagu" src="images/afpc2018/bagu.png"></p>
+<p>The second hint is from the very same game and makes the solution more
+googleable.</p>
+<p><img alt="use fire" src="images/afpc2018/usefire.png"></p>
+<h2>Level 12 (Fuchs)</h2>
+<h3>Clues: Roses are 0°, violets are blue, walk in circles to find the clue. FF007F-0080FF 7F00FF-7FFF00 00FF7F-FF7F00, FF007F-0080FF-00FF7F-FF7F00, FF7F00-FF007F-0080FF-00FF7F 7F00FF-7FFF00 | Green meadows in the east, blue waters in the west, icy cyan in the south ... | the result is quite puzzle related</h3>
+<p>A slightly harder riddle. <code>Roses are 0°, violets are blue, walk in
+circles to find the clue</code> is a hint towards a (hue) colour wheel, where red
+is located at 0°.</p>
+<p>As unfortunately every piece of software places 0° at a different position and
+some even rotate counter clockwise, the hint <code>Green meadows in the east, blue
+waters in the west, icy cyan in the south...</code> gave you the 
+<a href="https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Color/Normalized_Color_Coordinates">correct colour circle</a>.</p>
+<p>If you draw lines from colours separated by - and make a letter for each
+comma-separated colour value, you'll end up with:</p>
+<p><img alt="H" src="images/afpc2018/h_hue.png"></p>
+<p><img alt="U" src="images/afpc2018/u_hue.png"></p>
+<p><img alt="E" src="images/afpc2018/e_hue.png"></p>
+<p>This gives you the channel name, <code>######HUE</code>. The last hint shows you that you
+got the right solution.</p>
+<h2>Level 13 (Fuchs)</h2>
+<h3>Clues: MPH: gotta go fast, fly high || Topic changed from "go fast" to "gotta go fast"</h3>
+<p>Here we were looking for a character from the <em>Sonic The Hedgehog</em> video
+games series. <code>Gotta go fast</code> is Sonic's motto. However, <code>MPH</code> and
+<code>fly high</code> point towards someone else: Sonic has a fox sidekick,
+called Miles <code>Tails</code> Prower. His theme song, <code>fly high</code>, was used in
+Sonic Adventure.</p>
+<p>As you can see in [his wikipedia article](https://en.wikipedia.org/wiki/Tails_(character),
+his full name <code>Miles Prower</code> is a pun on miles per hour, MPH. Using his two
+tails he can fly short distances. Thus she answer was <code>######tails</code>.</p>
+<h2>Level 14 (vehk)</h2>
+<h3>Clues: https://youtu.be/vbZGtzC_yZo</h3>
+<p>The song in the topic is a vague reference to the <em>Konami Code</em>, which allowed
+you to obtain 30 extra lives in the NES version of <em>Contra</em>.</p>
+<p>The code itself was a combination of button inputs, namely:
+Up, Up, Down, Down, Left, Right, Left, Right, B, A.</p>
+<p>The matching solution channel is therefore <code>######UUDDLRLRBA</code></p>
+<h2>Level 15 (Fuchs/vehk)</h2>
+<h3>Clues: VAC | IRC | Mean, Median, ... | / | here</h3>
+<p>This puzzle was a very obscure one, and originally only the first
+clue was presented.</p>
+<p>Valve's own anti-cheating system (VAC) together with the puzzle theme was
+meant to lead players to think about banning, or getting banned.</p>
+<p>On IRC, one can inspect the ban list using the <code>/mode +b</code> command, which
+revealed a hidden clue: <code>valve!*@*time* banned by ircpuzzles</code>.</p>
+<p>Clues which were added later all hinted towards using the /mode command
+in the channel itself.</p>
+<p>Thus the answer: <code>######valvetime</code></p>
+<h2>Level 16 (Fuchs)</h2>
+<h3>Clues: What kind of beast would get really close to you, just to step back and back again and kick you with No Mercy? | What a rare gem both of these were. | Trust your instinct, preserve your energy</h3>
+<p>Quite a hard puzzle, looking for a character of the fighting game series
+<em>Killer Instinct</em>. It was developed by Rare, which the hint <code>What a rare gem
+both of these were</code> pointed at. Said hint also helped at the end, since Rare
+developed, in its early days under a different name, a game named after the
+solution - Sabre Wulf.</p>
+<p>Like <em>Mortal Kombat</em>, Killer Instinct had a finishing move to kill the opponent.
+These were called <code>No Mercy</code> moves, and used a key combination to trigger.
+The character Sabre Wulf had the combination Back, Back, Kick when standing
+close to the enemy, which the clue hinted at.</p>
+<p>Another hint helping to find the right game was <code>trust your instinct,
+preserve your energy</code> - the former hinting at Killer Instinct itself, the
+latter hinting at the game being special compared to others as players
+preserve their energy bar after winning the first of two rounds.</p>
+<p>The solution channel was: <code>######sabrewulf</code></p>
+<h2>Level 17 (Fuchs)</h2>
+<h3>Clues: Interlude: I'm sitting at the table, expensive cutlery in front, but a bit further just a canned food to eat. I look at the nobles across, the poor person on the left, the rich person to the right, and what appears to be a German next to him. The person a bit behind me knows all the answers. It's the seat on their left, their surname and the seat on their right. | Maybe it would help if you sat at a table regularly as well | in the end a black bird will guide the way | no more hints, PERIOD</h3>
+<p>Arguably the hardest interlude. People should look for the periodic table of
+elements, as hinted at by <code>Maybe it would help if you sat at a table
+regularly as well</code>, regularly being a synonym for periodically. As this hint
+was not sufficient for everybody, <code>no more hints, PERIOD</code> was added later
+on.</p>
+<p>It starts at 46, Palladium, which has Silver and Gold (expensive cutlery) in
+front. A bit further in this direction is Tin, thus canned food. The noble
+gasses are the nobles across the table, Nickel, left of Palladium, is used for
+the poor person (from the US 5 cent coin nicknamed nickel, and <code>bring your
+nickles for the poor</code>).</p>
+<p>To the right is Platinum (rich person), followed by Darmstadtium, which is
+named after the German city of Darmstadt.</p>
+<p>A bit behind Palladium is Molybdenum, with an atomic number of 42, referencing
+the Hitchhiker's Guide to the Galaxy's answer to everything - 42.</p>
+<p>Left of them is Chromium (Cr), right of them is Tungsten (W), together with
+the o from Molybdenum you get <code>######crow</code>, which is the black bird hinted at.</p>
+<h2>Level 18 (vehk)</h2>
+<h3>Clues: 9 8 7 4 1 2 3 | 7 8 5 2 3 | 1 4 8 5 6 3 | 7 4 5 9 6 3 | 1 4 7 8 6 2 | 3x3 | numpad</h3>
+<p>The numbers given in the topic, when followed on the numpad, spell out:
+<code>c2a4d</code>.</p>
+<p>At this point, players were expected to figure out how that related to video
+games. In the original <em>Half-Life</em>, map names were a combination of letters and
+digits. The level with the map name c2a4d was called <code>Questionable Ethics</code>.</p>
+<p>Therefore, <code>######QuestionableEthics</code></p>
+<h2>Level 19 (Fuchs)</h2>
+<h3>Clues: Foff0 Xuho: Te u ###### (Q eh H knaso)! | https://www.youtube.com/watch?v=l-O5IHVhWj0 | All I wanted was having a blast, got lousy staff instead | Good Luck | https://imgur.com/a/ihv0x</h3>
+<p>Obviously I had to somehow bring in the <em>Star Fox</em> video game series, as it is
+one of my all time favourites. However, the regular ones would have been all
+rather easy, so I took the probably least known game out of it, <em>Star Fox
+Adventures</em>. A rather unusual game, since it's not a space shooter, but a
+<em>Legend of Zelda</em> inspired adventure game, and the very last game Rare developed
+for a Nintendo console.</p>
+<p>In this game, you get a very annoying sidekick dinosaur called Tricky, hence
+the first hint, <a href="https://www.youtube.com/watch?v=l-O5IHVhWj0">It's Tricky, by Run DMC</a>.
+Another hint at the game was <code>All I wanted was having a blast, got lousy
+staff instead</code> based on the gag that they had to explain why Fox couldn't
+take his usual blaster along and got a staff as weapon instead. Also <code>Good
+Luck</code> is what General Pepper says before missions in most Star Fox games.</p>
+<p>The dinosaurs had their own language, which was based on a letter shift
+created in a way that still sounds okay when spoken, which was mostly achieved
+by not shifting a given amount of letters, but rather replace vowels with
+other vowels.</p>
+<p>The image hinted at that by abusing a well known meme and translating <code>RAWR</code>
+with the Star Fox dinosaur language, which gave <code>BIGB</code>. If you translated
+the clue, for example via https://saurian.krystalarchive.com/, you got:</p>
+<p><code>Peppy Hare: Do a ###### (Z or R twice)!</code></p>
+<p>This is the well known <code>Do a barrel roll</code> meme, originating from the N64
+Star Fox game where Peppy shouts this at you as a hint.</p>
+<p>Translating <code>barrel roll</code> back to dinosaur finally gave you the channel
+name: <code>######ruhhochecc</code>.</p>
+<h2>Level 20 (vehk/atk)</h2>
+<h3>Clues: https://is.gd/XI9zXU | middle</h3>
+<p>Putting the audio file from the topic into a spectrogram analyzer yielded a
+set of emoji characters: 👨🖌️3️ 🅿️🌴</p>
+<p>With a little bit of imagination, one arrives at <code>Guy Brush Three P Wood</code>,
+which, when searched for or remembered, is the name of the protagonist of the
+<em>Monkey Island</em> games.</p>
+<p>Guybrush Threepwood has a middle name, Ulysses. Therefore, the solution
+channel was: <code>######ulysses</code></p>
+<h2>Level 21 (ybden/vehk)</h2>
+<h3>Clues: https://is.gd/FwIbsg</h3>
+<p>The penultimate level. The image depicts a Fez, hinting at the
+game <em>FEZ</em>, a puzzle-platformer. Not immediately visible, but
+discernible after some modification in an image editor, one comes across
+hieroglyph-like characters in the top right corner of the image.</p>
+<p>The characters are from FEZ's in-game alphabet, and spell out text from the
+Rosetta Stone after being deciphered: <code>PTOLEMY, THE EVER-LIVING, THE BELOVED
+OF PTAH, THE GOD EPIPHANES EUCHARISTOS</code>.</p>
+<p>The solution therefore: <code>######rosettastone</code></p>
+<h2>Level 22 (grumble/vehk)</h2>
+<h3>Clues: Do you want to win?</h3>
+<p>Possibly the most complex of this year's puzzles - and the final level.</p>
+<p>The winner's circle: <code>######yes</code></p>
+            </section>
+        </div>
+    <div class="eevee-comment" id="article-comments">
+        <section itemscope itemtype='http://schema.org/UserComments'>
+            <h2>Join the discussion</h2>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_config = function () {
+this.page.url = "https://blog.ircpuzzles.org/2018/05/2018-afpc-summary/";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/2018/05/2018-afpc-summary/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://ircpuzzles.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>        </section>
+    </div>
+    </article>
+                </div>
+            </div>
+        </main>
+        <footer class="mdl-mega-footer" itemscope
+                itemtype="http://schema.org/SiteNavigationElement">
+            <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--drop-down-section">
+                    <ul class="mdl-mega-footer--link-list">
+                        <li>
+                            <a href="#top" itemprop="url"
+                               title="Back to the top of the page">
+                                Back to the top of the page
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<div class="mdl-mega-footer--middle-section" itemscope
+     itemtype="http://schema.org/SiteNavigationElement"
+     aria-label="Footer navigation">
+    <div class="mdl-mega-footer--drop-down-section">
+        <h1 class="mdl-mega-footer--heading">Categories</h1>
+        <ul class="mdl-mega-footer--link-list">
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/updates/" itemprop="url"
+                       rel="bookmark">
+                        updates
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/solutions/" itemprop="url"
+                       rel="bookmark">
+                        solutions
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.ircpuzzles.org/category/rankings/" itemprop="url"
+                       rel="bookmark">
+                        rankings
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="mdl-mega-footer--drop-down-section">
+        <h1 class="mdl-mega-footer--heading">Social</h1>
+        <ul class="mdl-mega-footer--link-list">
+                <li>
+                    <a href="https://twitter.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-twitter aria-hidden="true"></i> Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ircpuzzles" itemprop="url" rel="bookmark">
+                        <i class="fa fa-github aria-hidden="true"></i> Github
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="mdl-mega-footer--drop-down-section">
+        <h1 class="mdl-mega-footer--heading">Links</h1>
+        <ul class="mdl-mega-footer--link-list">
+                <li>
+                    <a href="https://freenode.net/" itemprop="url" rel="bookmark">
+                        freenode
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div>            <div class="mdl-mega-footer--bottom-section">
+                <div class="mdl-logo">
+                    <a href="https://blog.ircpuzzles.org" rel="bookmark" itemprop="url"
+                       title="#ircpuzzles">
+                        #ircpuzzles
+                    </a>
+                </div>
+                    <ul class="eevee-footer mdl-mega-footer--link-list">
+                            <li>Powered by love &amp; rainbow sparkles.</li>
+                            <li><a href="https://kura.io/eevee/" title="Eevee">Eevee</a> theme by <a href="https://kura.io/" title="kura.io">kura.io</a></li>
+                    </ul>
+            </div>
+        </footer>
+    </div>
+    <link rel="stylesheet"
+          href="//code.getmdl.io/1.1.3/material.blue_grey-pink.min.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/e2189c25a87c7d26d26437c629a0e8f8_fonts.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/052bce25270c913a16c504a7a464ce46_font-awesome.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/6e1f8fe6d5da0b5867c240e6724cbea7_material-icons.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/2106adbed378a29b80ee724153beae5d_pygments.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/b9ca9e7f41b89e3fa00f45808f76c752_eevee.css">
+    <link rel="stylesheet" href="https://blog.ircpuzzles.org/theme/webassets-external/a4bd3799a89f3bf319a983d23ea36e04_custom.css">
+    <script async src="https://blog.ircpuzzles.org/theme/webassets-external/dbb2bff29449134e95edb598e08cd9d5_material.js">
+    </script>
+    <script>
+        var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-51072782-1"]),_gaq.push(["_trackPageview"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();
+    </script>
+</body>
+</html>

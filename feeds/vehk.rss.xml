@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>#ircpuzzles - vehk</title><link>https://blog.ircpuzzles.org/</link><description></description><lastBuildDate>Sun, 06 May 2018 16:20:00 +0000</lastBuildDate><item><title>2018 April Fool's Day Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2018/05/2018-afd-summary/</link><description>&lt;h2&gt;Level 0 (vehk)&lt;/h2&gt;
+<rss version="2.0"><channel><title>#ircpuzzles - vehk</title><link>https://blog.ircpuzzles.org/</link><description></description><lastBuildDate>Sun, 06 May 2018 16:20:00 +0000</lastBuildDate><item><title>2018 April Fool's Day Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2018/05/2018-afpc-summary/</link><description>&lt;h2&gt;Level 0 (vehk)&lt;/h2&gt;
 &lt;h3&gt;Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw==&lt;/h3&gt;
 &lt;p&gt;As per ircpuzzles tradition, the first puzzle is simply a base64-encoded
 string. This particular one decodes to: &lt;code&gt;######AFPC2018-VideoGames&lt;/code&gt;.&lt;/p&gt;
@@ -7,7 +7,7 @@ string. This particular one decodes to: &lt;code&gt;######AFPC2018-VideoGames&lt
 &lt;h3&gt;Clues: Join ######locked. this is the key.&lt;/h3&gt;
 &lt;p&gt;This level introduces channel keys. The solution was to join &lt;code&gt;######locked&lt;/code&gt;
 with the key &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
-&lt;h2&gt;Level 2 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Sun, 06 May 2018 16:20:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2018-05-06:/2018/05/2018-afd-summary/</guid><category>solutions</category></item><item><title>2017 April Fool's Day Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2018/03/2017-afd-summary/</link><description>&lt;h2&gt;Level 0&lt;/h2&gt;
+&lt;h2&gt;Level 2 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Sun, 06 May 2018 16:20:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2018-05-06:/2018/05/2018-afpc-summary/</guid><category>solutions</category></item><item><title>2017 April Fool's Day Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2018/03/2017-afpc-summary/</link><description>&lt;h2&gt;Level 0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY=&lt;/li&gt;
 &lt;li&gt;The answer: &lt;code&gt;######AFD2017Start-CryptoNews&lt;/code&gt; decoding the clue with base64, and then rot13&lt;/li&gt;
@@ -21,7 +21,7 @@ with the key &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Level 2&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Clues …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Sun, 18 Mar 2018 19:20:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2018-03-18:/2018/03/2017-afd-summary/</guid><category>solutions</category></item><item><title>2016 April Fool's Day (AFD) Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2017/03/2016-afd-summary/</link><description>&lt;h2&gt;Level 0&lt;/h2&gt;
+&lt;li&gt;Clues …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Sun, 18 Mar 2018 19:20:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2018-03-18:/2018/03/2017-afpc-summary/</guid><category>solutions</category></item><item><title>2016 April Fool's Day Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2017/03/2016-afpc-summary/</link><description>&lt;h2&gt;Level 0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;######AFD2016Start&lt;/strong&gt;, decoding the clue with base64&lt;/li&gt;
@@ -38,7 +38,7 @@ with the key &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;Another combination of base64 and rot13&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;######Spaaaaaaaaaaaaaaaacccceeeee&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Level 3 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Fri, 31 Mar 2017 15:48:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2016-afd-summary/</guid><category>solutions</category></item><item><title>2015 April Fool's Day (AFD) Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2017/03/2015-afd-summary/</link><description>&lt;h2&gt;Level -2&lt;/h2&gt;
+&lt;h2&gt;Level 3 …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Fri, 31 Mar 2017 15:48:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2016-afpc-summary/</guid><category>solutions</category></item><item><title>2015 April Fool's Day Summary &amp; Solutions</title><link>https://blog.ircpuzzles.org/2017/03/2015-afpc-summary/</link><description>&lt;h2&gt;Level -2&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: morning light&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;####east&lt;/strong&gt;; the cardinal direction in which the sun rises&lt;/li&gt;
@@ -56,4 +56,4 @@ with the key &lt;code&gt;this&lt;/code&gt;.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Level 1&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Clue …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Fri, 31 Mar 2017 15:47:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2015-afd-summary/</guid><category>solutions</category></item></channel></rss>
+&lt;li&gt;Clue …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">vehk</dc:creator><pubDate>Fri, 31 Mar 2017 15:47:00 +0000</pubDate><guid isPermaLink="false">tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2015-afpc-summary/</guid><category>solutions</category></item></channel></rss>

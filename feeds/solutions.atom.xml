@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>#ircpuzzles - solutions</title><link href="https://blog.ircpuzzles.org/" rel="alternate"></link><link href="https://blog.ircpuzzles.org/feeds/solutions.atom.xml" rel="self"></link><id>https://blog.ircpuzzles.org/</id><updated>2018-05-06T16:20:00+00:00</updated><entry><title>2018 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2018/05/2018-afd-summary/" rel="alternate"></link><published>2018-05-06T16:20:00+00:00</published><updated>2018-05-06T16:20:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2018-05-06:/2018/05/2018-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0 (vehk)&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>#ircpuzzles - solutions</title><link href="https://blog.ircpuzzles.org/" rel="alternate"></link><link href="https://blog.ircpuzzles.org/feeds/solutions.atom.xml" rel="self"></link><id>https://blog.ircpuzzles.org/</id><updated>2018-05-06T16:20:00+00:00</updated><entry><title>2018 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2018/05/2018-afpc-summary/" rel="alternate"></link><published>2018-05-06T16:20:00+00:00</published><updated>2018-05-06T16:20:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2018-05-06:/2018/05/2018-afpc-summary/</id><summary type="html">&lt;h2&gt;Level 0 (vehk)&lt;/h2&gt;
 &lt;h3&gt;Clues: IyMjIyMjQUZQQzIwMTgtVmlkZW9HYW1lcw==&lt;/h3&gt;
 &lt;p&gt;As per ircpuzzles tradition, the first puzzle is simply a base64-encoded
 string. This particular one decodes to: &lt;code&gt;######AFPC2018-VideoGames&lt;/code&gt;.&lt;/p&gt;
@@ -251,7 +251,7 @@ OF PTAH, THE GOD EPIPHANES EUCHARISTOS&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;Level 22 (grumble/vehk)&lt;/h2&gt;
 &lt;h3&gt;Clues: Do you want to win?&lt;/h3&gt;
 &lt;p&gt;Possibly the most complex of this year's puzzles - and the final level.&lt;/p&gt;
-&lt;p&gt;The winner's circle: &lt;code&gt;######yes&lt;/code&gt;&lt;/p&gt;</content><category term="solutions"></category></entry><entry><title>2017 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2018/03/2017-afd-summary/" rel="alternate"></link><published>2018-03-18T19:20:00+00:00</published><updated>2018-03-18T19:20:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2018-03-18:/2018/03/2017-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
+&lt;p&gt;The winner's circle: &lt;code&gt;######yes&lt;/code&gt;&lt;/p&gt;</content><category term="solutions"></category></entry><entry><title>2017 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2018/03/2017-afpc-summary/" rel="alternate"></link><published>2018-03-18T19:20:00+00:00</published><updated>2018-03-18T19:20:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2018-03-18:/2018/03/2017-afpc-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: IyMjIyMjTlNRMjAxN0ZnbmVnLVBlbGNnYkFyamY=&lt;/li&gt;
 &lt;li&gt;The answer: &lt;code&gt;######AFD2017Start-CryptoNews&lt;/code&gt; decoding the clue with base64, and then rot13&lt;/li&gt;
@@ -387,7 +387,7 @@ OF PTAH, THE GOD EPIPHANES EUCHARISTOS&lt;/code&gt;.&lt;/p&gt;
    10 00 00 10 10 00 10 00 00 01 00 10&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;The last three hints were expected to lead people to try decoding the bits as braille&lt;/li&gt;
 &lt;li&gt;The answer: &lt;code&gt;######marc.stevens&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="solutions"></category></entry><entry><title>2016 April Fool's Day (AFD) Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2017/03/2016-afd-summary/" rel="alternate"></link><published>2017-03-31T15:48:00+00:00</published><updated>2017-03-31T15:48:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2016-afd-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="solutions"></category></entry><entry><title>2016 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2017/03/2016-afpc-summary/" rel="alternate"></link><published>2017-03-31T15:48:00+00:00</published><updated>2017-03-31T15:48:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2016-afpc-summary/</id><summary type="html">&lt;h2&gt;Level 0&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;######AFD2016Start&lt;/strong&gt;, decoding the clue with base64&lt;/li&gt;
@@ -594,7 +594,7 @@ OF PTAH, THE GOD EPIPHANES EUCHARISTOS&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;Scanning the QR-code reveals the message "Спутник-1"&lt;/li&gt;
 &lt;li&gt;Find Baikonur Cosmodrome on the Wikipedia page for Спутник-1 (Sputnik 1)&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;######BaikonurCosmodrome&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="solutions"></category></entry><entry><title>2015 April Fool's Day (AFD) Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2017/03/2015-afd-summary/" rel="alternate"></link><published>2017-03-31T15:47:00+00:00</published><updated>2017-03-31T15:47:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2015-afd-summary/</id><summary type="html">&lt;h2&gt;Level -2&lt;/h2&gt;
+&lt;/ul&gt;</content><category term="solutions"></category></entry><entry><title>2015 April Fool's Day Summary &amp; Solutions</title><link href="https://blog.ircpuzzles.org/2017/03/2015-afpc-summary/" rel="alternate"></link><published>2017-03-31T15:47:00+00:00</published><updated>2017-03-31T15:47:00+00:00</updated><author><name>vehk</name></author><id>tag:blog.ircpuzzles.org,2017-03-31:/2017/03/2015-afpc-summary/</id><summary type="html">&lt;h2&gt;Level -2&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Clue: morning light&lt;/li&gt;
 &lt;li&gt;The answer: &lt;strong&gt;####east&lt;/strong&gt;; the cardinal direction in which the sun rises&lt;/li&gt;
