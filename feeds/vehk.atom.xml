@@ -519,45 +519,45 @@ OF PTAH, THE GOD EPIPHANES EUCHARISTOS&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;These are all ASCII control characters (with additional padding: US[E], SO[U])&lt;/li&gt;
 &lt;li&gt;People were expected to put the actual characters into a file and look at the binary representation. With one column per byte and groups of three, it becomes (0 removed):&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;   11111
-   1 1 1
-    1 1 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+    &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; 
 
-   11111
-   1 1 1
-   1 1 1
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
 
-   11111
-   1 1 1
-   1 1 1
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
 
-   11111
-   1 1 1
-    1 1 
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+    &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; 
 
-   11111
-   1    
-   1    
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt;    
+   &lt;span class="mi"&gt;1&lt;/span&gt;    
 
-   11111
-   1 1 1
-   1 1 1
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
 
-   11111
-   1 1 1
-    1 1 
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+    &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; 
 
-   11111
-     1 1
-   11 1 
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+     &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+   &lt;span class="mi"&gt;11&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; 
 
-   11111
-   1   1
-   11111
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
+   &lt;span class="mi"&gt;1&lt;/span&gt;   &lt;span class="mi"&gt;1&lt;/span&gt;
+   &lt;span class="mi"&gt;11111&lt;/span&gt;
 
-   11 11
-     1  
-   11 11
+   &lt;span class="mi"&gt;11&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;
+     &lt;span class="mi"&gt;1&lt;/span&gt;  
+   &lt;span class="mi"&gt;11&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
