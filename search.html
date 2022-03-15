@@ -118,19 +118,6 @@
        title="RSS" itemprop="url">
         RSS
     </a>
-    <div class="eevee-search-menu mdl-textfield">
-        <label class="mdl-color-text--accent mdl-button mdl-button--icon"
-               for="tipue_search_input">
-            <i class="material-icons">&#xE8B6;</i>
-        </label>
-        <div>
-            <form action="https://blog.ircpuzzles.org/search.html">
-            <input class="eevee-search-box mdl-textfield__input"
-                   type="text" name="q" id="tipue_search_input"
-                   autocomplete="off">
-            </form>
-        </div>
-    </div>
                 </nav>
             </div>
         </header>
@@ -194,19 +181,6 @@
        title="RSS" itemprop="url">
         RSS
     </a>
-    <div class="eevee-search-menu mdl-textfield">
-        <label class="mdl-color-text--accent mdl-button mdl-button--icon"
-               for="tipue_search_input">
-            <i class="material-icons">&#xE8B6;</i>
-        </label>
-        <div>
-            <form action="https://blog.ircpuzzles.org/search.html">
-            <input class="eevee-search-box mdl-textfield__input"
-                   type="text" name="q" id="tipue_search_input"
-                   autocomplete="off">
-            </form>
-        </div>
-    </div>
                 </nav>
             </div>
         </div>
@@ -219,23 +193,16 @@
                 </div>
                 <div class="eevee-content mdl-color--white mdl-shadow--4dp mdl-color-text--grey-800 mdl-cell mdl-cell--8-col"
                      aria-label="Main content">
-    <script src="https://blog.ircpuzzles.org/theme/webassets-external/73dc6607bd7d5ceecadda7090e3c1b82_jquery.js">
-    </script>
-    <script src="https://blog.ircpuzzles.org/theme/webassets-external/15ec020e9d16d69019dcd1e1a39cc3e3_tipuesearch.js">
-    </script>
-    <script src="https://blog.ircpuzzles.org/theme/webassets-external/31cf00615b54d9aa16d64b74987deea1_tipuesearch_set.js">
-    </script>
-        <script>
-            $(document).ready(function(){$("#tipue_search_input").tipuesearch({mode:"json",show:10,newWindow:!1,contentLocation:"https://blog.ircpuzzles.org/tipuesearch_content.json"})});
-        </script>
-        <article itemscope itemtype="http://schema.org/WebPage">
-            <div class="eevee-page">
-                <h2 itemprop="name">Search results</h2>
-                <div>
-                    <div id="tipue_search_content"></div>
-                </div>
-            </div>
-        </article>
+        <div class="eevee-padding">
+            <h2>Search results</h2>
+            <section class="post-content">
+                <p>You got here because the <tt>search.html</tt> page is
+                enabled but <tt>TIPUE_SEARCH</tt> is not enabled.</p>
+                <p>Please visit <a href="https://kura.io/eevee/#search">the
+                Eevee documentation</a> for information on configuring the
+                search functionality.</p>
+            </section>
+        </div>
                 </div>
             </div>
         </main>

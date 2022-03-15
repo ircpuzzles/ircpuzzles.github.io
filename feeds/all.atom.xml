@@ -49,7 +49,7 @@
 &lt;tr&gt;
 &lt;td&gt;6.&lt;/td&gt;
 &lt;td&gt;Dataforce&lt;/td&gt;
-&lt;td&gt;2020-04-04 02 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
+&lt;td&gt;2020-04-04 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;Thank you for everybody who particpiated! Congratulations to those who finished!&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -941,7 +941,7 @@ OF PTAH, THE GOD EPIPHANES EUCHARISTOS&lt;/code&gt;.&lt;/p&gt;
 &lt;li&gt;These are all ASCII control characters (with additional padding: US[E], SO[U])&lt;/li&gt;
 &lt;li&gt;People were expected to put the actual characters into a file and look at the binary representation. With one column per byte and groups of three, it becomes (0 removed):&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;   &lt;span class="mi"&gt;11111&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;   &lt;span class="mi"&gt;11111&lt;/span&gt;
    &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
     &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; 
 
@@ -980,8 +980,7 @@ OF PTAH, THE GOD EPIPHANES EUCHARISTOS&lt;/code&gt;.&lt;/p&gt;
    &lt;span class="mi"&gt;11&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;
      &lt;span class="mi"&gt;1&lt;/span&gt;  
    &lt;span class="mi"&gt;11&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The answer: &lt;strong&gt;######Beeblebrox&lt;/strong&gt;&lt;/li&gt;
